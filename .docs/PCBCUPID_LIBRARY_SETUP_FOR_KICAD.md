@@ -212,14 +212,3 @@ Maintained By
 PCBCupid
 Custom hardware libraries for KiCad
 
-
----
-
-### ✅ What’s Next (Optional)
-When you’re ready, I can:
-- Create a **short README.md** that links to this file
-- Add **KiCad-style screenshots placeholders**
-- Prepare a **GitHub Release checklist**
-- Add **versioning & changelog support**
-
-Just say 👍
