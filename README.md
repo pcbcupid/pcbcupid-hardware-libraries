@@ -28,6 +28,11 @@ These files are designed to be easily imported into your KiCad projects to help 
     - **Symbols**: Use the `Add Footprint` tool to import the symbols into your schematic.
     - **Footprints**: In the **Footprint Editor**, import the necessary footprints.
     - **3D Models**: Attach 3D models to footprints via KiCad's **Footprint Properties**.
+    > 🚨 **IMPORTANT – INSTALLATION GUIDE**  
+    >  
+    > 👉 **[CLICK HERE: PCBCUPID Library Setup for KiCad](./.docs/PCBCUPID_LIBRARY_SETUP_FOR_KICAD.md)**
+
+    <!-- - **How to install**: [PCBCUPID-Libray-Setup-for-KICAD](./.docs/PCBCUPID_LIBRARY_SETUP_FOR_KICAD.md) -->
 
 ## Contributing
 

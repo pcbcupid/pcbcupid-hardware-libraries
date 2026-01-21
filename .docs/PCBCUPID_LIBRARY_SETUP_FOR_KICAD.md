@@ -194,9 +194,14 @@ docs/images/manage-footprint-libraries.png
 ```
 
 Markdown example:
-```markdown
-![Configure Paths](images/configure-paths.png)
-```
+
+![Configure Paths](./images/Configure-Path.png)
+![Add symbols-1](./images/add-sysmbol-from-location_1.png)
+![Add symbols-2](./images/add-sysmbol-from-location_2.png)
+![Add symbols-3](./images/after-symbol-added.png)
+![add footprint-1](./images/add-footprint-from-location_1.png)
+![add footprint-2](./images/add-footprint-from-location_2.png)
+![add footprint-3](./images/after-footprint-added%20.png)
 
 License
 
