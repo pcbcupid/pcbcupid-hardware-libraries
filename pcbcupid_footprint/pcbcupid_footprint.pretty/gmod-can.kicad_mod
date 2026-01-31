@@ -386,24 +386,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_can.wrl"
 		(offset
-			(xyz 1.27 -0.03 0)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -0 -0)
-		)
-	)
-	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_can.wrl"
-		(offset
-			(xyz 1.27 -0.03 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
 		)
 	)
 )
