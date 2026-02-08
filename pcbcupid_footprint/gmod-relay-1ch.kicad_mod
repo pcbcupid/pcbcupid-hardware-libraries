@@ -194,76 +194,6 @@
 		(layer "Dwgs.User")
 		(uuid "b37dcf05-b478-4c6e-8cf2-a5fe22e5b6e0")
 	)
-	(fp_text user "IN"
-		(at -22.21 4.01 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "075c5ba5-97bf-442c-9342-5c8b1c1dbd27")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "COM"
-		(at 17.55 1.16 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "5a4bd891-cc4c-44b4-b847-1aa52bb172c0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "NO"
-		(at 17.775 6.235 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "98ef1a39-0722-4cf3-bbd4-5b25f0b2493a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "VCC"
-		(at -23.54 -1.22 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "c3a6f2f3-605a-4692-a24a-6ad478e29a19")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "NC"
-		(at 17.65 -3.99 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e9145e98-3395-4653-bfed-791d485127bc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "RELAY CH1"
 		(at 0.06 -0.94 0)
 		(unlocked yes)
@@ -278,10 +208,80 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "GND"
-		(at -23.675 1.435 0)
+	(fp_text user "IN"
+		(at -20.955 3.9878 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
+		(uuid "075c5ba5-97bf-442c-9342-5c8b1c1dbd27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "COM"
+		(at 20.8788 1.2446 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "5a4bd891-cc4c-44b4-b847-1aa52bb172c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "NO"
+		(at 19.939 6.235 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "98ef1a39-0722-4cf3-bbd4-5b25f0b2493a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at -20.7772 -1.1684 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c3a6f2f3-605a-4692-a24a-6ad478e29a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "NC"
+		(at 20.066 -3.937 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "e9145e98-3395-4653-bfed-791d485127bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at -20.828 1.5748 0)
+		(unlocked yes)
+		(layer "B.SilkS")
 		(uuid "ec18a17e-e5a7-4c51-b0bf-ebf1cbda3aa3")
 		(effects
 			(font
@@ -289,7 +289,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"

@@ -205,20 +205,6 @@
 		(layer "F.Fab")
 		(uuid "904b91f9-3fe5-4d2f-bfed-1cbc56897eba")
 	)
-	(fp_text user "NO-1"
-		(at 18.05 -6.2 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "350f318f-3e35-40cb-be5f-e9dc8c6535b8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "RELAY CH2\n"
 		(at 0.02 -0.29 0)
 		(unlocked yes)
@@ -233,10 +219,24 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "IN2"
-		(at -20.05 0.475 0)
+	(fp_text user "NO-1"
+		(at 22.5044 -6.477 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
+		(uuid "350f318f-3e35-40cb-be5f-e9dc8c6535b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "IN2"
+		(at -17.6276 0.475 0)
+		(unlocked yes)
+		(layer "B.SilkS")
 		(uuid "82f58d03-1dae-4a3e-807f-fc864f6446e9")
 		(effects
 			(font
@@ -244,13 +244,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "COM-1"
-		(at 18.075 -1.9 0)
+		(at 23.5458 -2.0574 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "8cfe055d-ba3f-419a-8846-7bc22e74e6b2")
 		(effects
 			(font
@@ -258,13 +258,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "IN1"
-		(at -20.025 -1.9 0)
+		(at -17.7546 -1.9304 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "a755e08b-07ec-416a-b03d-d9286cd1510e")
 		(effects
 			(font
@@ -272,13 +272,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "GND"
-		(at -20.225 3 0)
+		(at -17.0942 2.9464 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "c6d308ce-fd54-4742-80f6-98e5c6ee9737")
 		(effects
 			(font
@@ -286,13 +286,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "VCC"
-		(at -20.225 -4.575 0)
+		(at -17.272 -4.4196 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "d2d48e1e-812f-4e4b-9039-7565db2c4ab2")
 		(effects
 			(font
@@ -300,13 +300,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "NO-2"
-		(at 18.125 3.025 0)
+		(at 23.0124 2.9972 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "de846335-1167-4e3d-b694-30be445d9c73")
 		(effects
 			(font
@@ -314,13 +314,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "COM-2"
-		(at 18.075 7.3 0)
+		(at 23.8506 7.112 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "ea88b5af-ec3d-4201-8015-cdad62d84280")
 		(effects
 			(font
@@ -328,7 +328,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
