@@ -1,0 +1,1003 @@
+(footprint "1x3_Push_Button_Array"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8b412ad7-1de5-4bf1-ba0d-33f19391301f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1x3_Push_Button_Array"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7989f473-b1ff-4770-8a58-4d4e69fea131")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e7e01b5-ca0d-420b-8a27-f979bcb8393a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fb844d9-86db-4554-9d43-50ab7fce5548")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Valcon"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25f93fbf-f8f6-4829-8e69-d6e508679d44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "4.3mm"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d98a8d1-df6e-4127-8e2d-baf99169c547")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b1d4c13-7904-4afc-8830-80a3ae5848ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04125e64-b9bf-4676-bc95-155c49e0e5b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=eda"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10326b8a-19a0-49d8-96de-8ffc34168b63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "637ed3de-3c85-4421-a2d2-ca02bf43a49c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "N/A"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d60a822-9154-46fd-8f83-dd622e41e489")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=snap"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65b28c06-42ac-4618-b4f5-dce2fb717467")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "VS-1213-67-160GF"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a0e6c83-1c33-4b3f-9989-2eb05087c870")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Valcon 12 x 12mm PCB Mount Flat Tactile Switch"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c78da179-bbe7-4d74-94af-9324377d2ef8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b3a7182-6b97-4c57-be56-223b9a67a4da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Valcon"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45950c5c-3938-4519-8ed4-c5b51fb99d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Valcon"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1bc4346-985e-4ece-9af8-77bb6c486ee4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "4.3mm"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4db2986-1540-4272-9c6a-3fd0705fe7e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfd304d7-6d67-4d54-ba22-8d9556d41dfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3139727f-2d95-4d30-a484-39b2c319ef83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=eda"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4419812-03f5-4726-8d41-14dc6eb8074c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0b82f56-9d9c-4795-8eac-d4e6ff00e060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "N/A"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b3cf1ae-709d-49ea-a91c-2d538df37d21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=snap"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "467ed31c-4b7d-4364-8dd4-f5e93df79aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "VS-1213-67-160GF"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15e8d5a5-337a-4e5c-a0f5-b4f7bde379e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Valcon 12 x 12mm PCB Mount Flat Tactile Switch"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b36b4e1-a39e-49d9-af2e-a3d7e5d49dfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da2320e2-3044-4bcc-8106-00dcbe9a8a65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Valcon"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68b6ddc1-be42-41e5-900b-885bcf7a67f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Valcon"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a26597c-559c-456b-b123-6b95ac017cd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "4.3mm"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2868adf-420f-4ec5-84a6-6df4b7acf799")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "027431c0-d22a-434f-9ee1-7200c6b2892f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdbc9f1c-b8a6-46b8-9a7a-806006ae1531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=eda"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb428af3-5640-4143-9f92-d5ba45346ec7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4115dd8b-cd0b-4064-affe-033f20eaa031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "N/A"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac1fe9b7-45df-495f-b3fc-13c94846604c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/VS-1213-67-160GF/Valcon/view-part/?ref=snap"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e55a2096-0807-45dd-bcfb-db8e44433d1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "VS-1213-67-160GF"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21eb27bb-1020-4761-86ff-c1b9bec511e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Valcon 12 x 12mm PCB Mount Flat Tactile Switch"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "094f04ae-b3a1-4e72-8ce0-25aba9b5bbdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f38711fb-95a2-4e06-80c0-e9b934dc6ea7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Valcon"
+		(at 23.876 11.0998 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68279b07-d0b2-4e58-8071-ed9ac75e3871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -26.154243 9.25625)
+		(end -26.153984 -8.490998)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec549362-8d19-4a5c-9acd-ff90169b73a7")
+	)
+	(fp_line
+		(start -23.595965 -11.031091)
+		(end 22.14221 -11.03109)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3bae8d40-c47b-4b19-9970-8edcfcf5ac6b")
+	)
+	(fp_line
+		(start 22.064588 11.828908)
+		(end -23.614133 11.828648)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9749b00d-35e8-4d56-a1a8-17cea8901704")
+	)
+	(fp_line
+		(start 24.68175 -8.447014)
+		(end 24.645393 9.29943)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "885114be-9869-49a8-b511-d2fb6018040a")
+	)
+	(fp_arc
+		(start -26.153984 -8.490998)
+		(mid -25.393278 -10.293325)
+		(end -23.595965 -11.031091)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "95e107d3-6831-4254-8091-9eeb41a6ab45")
+	)
+	(fp_arc
+		(start -23.614133 11.828648)
+		(mid -25.41655 11.067879)
+		(end -26.154243 9.25625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb12e44f-f8fb-4a51-b451-d9b9eacd1e94")
+	)
+	(fp_arc
+		(start 22.14221 -11.03109)
+		(mid 23.94821 -10.266244)
+		(end 24.68175 -8.447014)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e7b35d6f-3307-4d59-936d-1a0501015511")
+	)
+	(fp_arc
+		(start 24.645393 9.29943)
+		(mid 23.876 11.0998)
+		(end 22.064588 11.828908)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "938ae3c2-550a-40ea-800b-af0755bcdd70")
+	)
+	(fp_line
+		(start 23.376 10.6998)
+		(end 23.076 10.9998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9482b9b3-279b-4ea3-bd12-c79b1de8bec6")
+	)
+	(fp_line
+		(start 23.376 10.6998)
+		(end 23.076 10.9998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4b4f07e-8b34-489d-a8de-d67cd7bc25e3")
+	)
+	(fp_line
+		(start 23.376 10.6998)
+		(end 23.076 10.9998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dec6ed19-36ce-45f7-b369-75232acca19e")
+	)
+	(fp_text user "D2"
+		(at -1.2954 -7.4676 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "20031824-bc31-4ed9-8514-9008506d5505")
+		(effects
+			(font
+				(face "Lexend")
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "D2" 0
+			(polygon
+				(pts
+					(xy -1.393585 -7.6036) (xy -1.722336 -7.6036) (xy -1.779483 -7.606912) (xy -1.83197 -7.616549)
+					(xy -1.88041 -7.632225) (xy -1.926326 -7.654169) (xy -1.967284 -7.681045) (xy -2.003753 -7.712971)
+					(xy -2.035419 -7.749647) (xy -2.061974 -7.790921) (xy -2.083522 -7.837291) (xy -2.098901 -7.886177)
+					(xy -2.10833 -7.938765) (xy -2.111561 -7.995609) (xy -1.918903 -7.995609) (xy -1.915227 -7.946666)
+					(xy -1.904688 -7.903676) (xy -1.887136 -7.864775) (xy -1.863997 -7.832992) (xy -1.834958 -7.807158)
+					(xy -1.800347 -7.787661) (xy -1.761597 -7.775711) (xy -1.716718 -7.771541) (xy -1.583997 -7.771541)
+					(xy -1.583997 -8.219678) (xy -1.716718 -8.219678) (xy -1.761567 -8.215491) (xy -1.800152 -8.203509)
+					(xy -1.834574 -8.184026) (xy -1.863753 -8.157982) (xy -1.887107 -8.126008) (xy -1.904688 -8.087249)
+					(xy -1.915223 -8.044478) (xy -1.918903 -7.995609) (xy -2.111561 -7.995609) (xy -2.108314 -8.052878)
+					(xy -2.09887 -8.105466) (xy -2.083522 -8.153976) (xy -2.06199 -8.199993) (xy -2.035363 -8.24118)
+					(xy -2.003508 -8.278003) (xy -1.966881 -8.310097) (xy -1.925917 -8.337032) (xy -1.880166 -8.358945)
+					(xy -1.831882 -8.374641) (xy -1.779481 -8.384298) (xy -1.722336 -8.387619) (xy -1.393585 -8.387619)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.226062 -7.6036) (xy -2.188449 -7.695435) (xy -2.417207 -7.945442) (xy -2.459168 -7.993167)
+					(xy -2.502496 -8.048757) (xy -2.52184 -8.077642) (xy -2.536495 -8.104542) (xy -2.546575 -8.131418)
+					(xy -2.549587 -8.153732) (xy -2.547052 -8.174498) (xy -2.539719 -8.192274) (xy -2.527731 -8.207207)
+					(xy -2.510654 -8.218994) (xy -2.48985 -8.226236) (xy -2.462196 -8.22891) (xy -2.436889 -8.225622)
+					(xy -2.412811 -8.215672) (xy -2.390766 -8.199665) (xy -2.368554 -8.175714) (xy -2.349012 -8.146898)
+					(xy -2.329817 -8.109573) (xy -2.189279 -8.185826) (xy -2.206998 -8.227734) (xy -2.2291 -8.265812)
+					(xy -2.255665 -8.300424) (xy -2.286454 -8.331295) (xy -2.320251 -8.357058) (xy -2.357319 -8.377996)
+					(xy -2.396897 -8.393401) (xy -2.438046 -8.402456) (xy -2.481247 -8.405205) (xy -2.526748 -8.40154)
+					(xy -2.568303 -8.391694) (xy -2.606544 -8.375847) (xy -2.641609 -8.354023) (xy -2.671099 -8.327567)
+					(xy -2.695546 -8.296175) (xy -2.713639 -8.260917) (xy -2.724697 -8.221657) (xy -2.728519 -8.177472)
+					(xy -2.723243 -8.128087) (xy -2.706586 -8.07489) (xy -2.676837 -8.016468) (xy -2.632483 -7.951743)
+					(xy -2.572252 -7.880229) (xy -2.39415 -7.686496) (xy -2.371729 -7.771541) (xy -2.763446 -7.771541)
+					(xy -2.763446 -7.6036)
+				)
+			)
+		)
+	)
+	(fp_text user "GND\n"
+		(at 4.2926 -7.493 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "62242b9e-739a-4c60-9fa1-ce57a791e2e4")
+		(effects
+			(font
+				(face "Lexend")
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "GND\n" 0
+			(polygon
+				(pts
+					(xy 3.830345 -7.617813) (xy 3.892516 -7.621365) (xy 3.949034 -7.631652) (xy 4.000632 -7.648295)
+					(xy 4.049515 -7.671599) (xy 4.09298 -7.700011) (xy 4.131546 -7.733633) (xy 4.165054 -7.772239)
+					(xy 4.192855 -7.815139) (xy 4.215126 -7.862789) (xy 4.230996 -7.913085) (xy 4.240687 -7.966725)
+					(xy 4.243995 -8.024233) (xy 4.240468 -8.081731) (xy 4.230142 -8.135188) (xy 4.213221 -8.185189)
+					(xy 4.189665 -8.232392) (xy 4.16045 -8.275045) (xy 4.125342 -8.313563) (xy 4.085332 -8.347079)
+					(xy 4.040666 -8.375345) (xy 3.990862 -8.398462) (xy 3.938427 -8.415034) (xy 3.881855 -8.425209)
+					(xy 3.820527 -8.428699) (xy 3.757202 -8.424429) (xy 3.69821 -8.411896) (xy 3.642526 -8.391731)
+					(xy 3.593479 -8.365831) (xy 3.54967 -8.334102) (xy 3.514246 -8.2993) (xy 3.62992 -8.177032) (xy 3.65803 -8.201349)
+					(xy 3.686926 -8.221435) (xy 3.717687 -8.237788) (xy 3.750478 -8.25006) (xy 3.785002 -8.257703)
+					(xy 3.822481 -8.260318) (xy 3.869899 -8.255786) (xy 3.912362 -8.242586) (xy 3.950817 -8.221333)
+					(xy 3.983974 -8.1932) (xy 4.011021 -8.158894) (xy 4.03165 -8.118267) (xy 4.04438 -8.073653) (xy 4.048747 -8.024233)
+					(xy 4.044217 -7.975546) (xy 4.030869 -7.930591) (xy 4.009401 -7.889599) (xy 3.981288 -7.854778)
+					(xy 3.946915 -7.826201) (xy 3.906793 -7.804415) (xy 3.86271 -7.790813) (xy 3.814763 -7.786194)
+					(xy 3.7803 -7.788987) (xy 3.748915 -7.797136) (xy 3.720051 -7.810329) (xy 3.695572 -7.827422) (xy 3.675142 -7.848561)
+					(xy 3.659766 -7.873047) (xy 3.650081 -7.900249) (xy 3.646821 -7.929614) (xy 3.646821 -7.957799)
+					(xy 3.621664 -7.920235) (xy 3.83821 -7.920235) (xy 3.83821 -8.069027) (xy 3.469159 -8.069027) (xy 3.466131 -8.035615)
+					(xy 3.464128 -7.99424) (xy 3.463542 -7.963856) (xy 3.466704 -7.913801) (xy 3.475951 -7.867464)
+					(xy 3.491092 -7.824296) (xy 3.512007 -7.783642) (xy 3.537626 -7.747264) (xy 3.568126 -7.714778)
+					(xy 3.602774 -7.686638) (xy 3.641423 -7.662837) (xy 3.684484 -7.643312) (xy 3.729677 -7.629318)
+					(xy 3.778136 -7.620747)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.319048 -7.629) (xy 3.319048 -8.413019) (xy 3.148664 -8.413019) (xy 2.737456 -7.853556) (xy 2.774679 -7.858246)
+					(xy 2.783521 -7.929272) (xy 2.790018 -7.995022) (xy 2.794463 -8.061358) (xy 2.796612 -8.134143)
+					(xy 2.797101 -8.219725) (xy 2.797101 -8.413019) (xy 2.611818 -8.413019) (xy 2.611818 -7.629) (xy 2.784449 -7.629)
+					(xy 3.213535 -8.207367) (xy 3.156186 -8.198623) (xy 3.146661 -8.107764) (xy 3.140262 -8.040939)
+					(xy 3.136354 -7.988769) (xy 3.134351 -7.94207) (xy 3.133765 -7.890584) (xy 3.133765 -7.629)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.415544 -7.629) (xy 2.086793 -7.629) (xy 2.029646 -7.632312) (xy 1.97716 -7.641949) (xy 1.92872 -7.657625)
+					(xy 1.882803 -7.679569) (xy 1.841846 -7.706445) (xy 1.805377 -7.738371) (xy 1.77371 -7.775047)
+					(xy 1.747156 -7.816321) (xy 1.725607 -7.862691) (xy 1.710229 -7.911577) (xy 1.700799 -7.964165)
+					(xy 1.697568 -8.021009) (xy 1.890227 -8.021009) (xy 1.893902 -7.972066) (xy 1.904442 -7.929076)
+					(xy 1.921993 -7.890175) (xy 1.945133 -7.858392) (xy 1.974172 -7.832558) (xy 2.008782 -7.813061)
+					(xy 2.047533 -7.801111) (xy 2.092411 -7.796941) (xy 2.225133 -7.796941) (xy 2.225133 -8.245078)
+					(xy 2.092411 -8.245078) (xy 2.047562 -8.240891) (xy 2.008978 -8.228909) (xy 1.974555 -8.209426)
+					(xy 1.945377 -8.183382) (xy 1.922022 -8.151408) (xy 1.904442 -8.112649) (xy 1.893906 -8.069878)
+					(xy 1.890227 -8.021009) (xy 1.697568 -8.021009) (xy 1.700815 -8.078278) (xy 1.710259 -8.130866)
+					(xy 1.725607 -8.179376) (xy 1.747139 -8.225393) (xy 1.773767 -8.26658) (xy 1.805621 -8.303403)
+					(xy 1.842248 -8.335497) (xy 1.883212 -8.362432) (xy 1.928964 -8.384345) (xy 1.977248 -8.400041)
+					(xy 2.029649 -8.409698) (xy 2.086793 -8.413019) (xy 2.415544 -8.413019)
+				)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at 6.8834 -7.493 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "91df5838-8d58-4144-a1c1-fdeb0bd01660")
+		(effects
+			(font
+				(face "Lexend")
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "VCC" 0
+			(polygon
+				(pts
+					(xy 6.565444 -7.629) (xy 6.878368 -8.413019) (xy 6.680824 -8.413019) (xy 6.52915 -8.013535) (xy 6.506386 -7.952719)
+					(xy 6.489827 -7.90431) (xy 6.476198 -7.859272) (xy 6.462423 -7.807394) (xy 6.497349 -7.806906)
+					(xy 6.478982 -7.875099) (xy 6.459199 -7.936697) (xy 6.431257 -8.013535) (xy 6.285298 -8.413019)
+					(xy 6.090831 -8.413019) (xy 6.406051 -7.629)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.66497 -7.617813) (xy 5.723589 -7.621239) (xy 5.777809 -7.631239) (xy 5.828222 -7.647562)
+					(xy 5.875975 -7.670323) (xy 5.918825 -7.698299) (xy 5.957231 -7.73163) (xy 5.990683 -7.769879)
+					(xy 6.018724 -7.812675) (xy 6.041494 -7.860493) (xy 6.057785 -7.911001) (xy 6.067772 -7.965382)
+					(xy 6.071194 -8.024233) (xy 6.067647 -8.081724) (xy 6.057258 -8.135214) (xy 6.040224 -8.185287)
+					(xy 6.016668 -8.23263) (xy 5.987793 -8.275281) (xy 5.95342 -8.313661) (xy 5.9142 -8.347173) (xy 5.870548 -8.375397)
+					(xy 5.822018 -8.398462) (xy 5.770847 -8.415066) (xy 5.715973 -8.425224) (xy 5.656812 -8.428699)
+					(xy 5.601498 -8.424997) (xy 5.547293 -8.413898) (xy 5.495319 -8.395702) (xy 5.447447 -8.370912)
+					(xy 5.404082 -8.33967) (xy 5.366847 -8.302866) (xy 5.484132 -8.169997) (xy 5.508022 -8.193248)
+					(xy 5.533567 -8.213033) (xy 5.561245 -8.229309) (xy 5.591159 -8.241561) (xy 5.622941 -8.249191)
+					(xy 5.658082 -8.251819) (xy 5.702237 -8.247716) (xy 5.743225 -8.235601) (xy 5.780598 -8.215896)
+					(xy 5.81259 -8.189488) (xy 5.838724 -8.15685) (xy 5.859045 -8.11729) (xy 5.871565 -8.073282) (xy 5.875947 -8.022279)
+					(xy 5.871634 -7.97227) (xy 5.85924 -7.928539) (xy 5.83888 -7.889239) (xy 5.811857 -7.856536) (xy 5.778358 -7.830294)
+					(xy 5.738047 -7.81057) (xy 5.693363 -7.798691) (xy 5.642206 -7.794547) (xy 5.607677 -7.797078)
+					(xy 5.574551 -7.80461) (xy 5.54303 -7.816596) (xy 5.514418 -7.832112) (xy 5.488335 -7.850952) (xy 5.465667 -7.872119)
+					(xy 5.373686 -7.725964) (xy 5.404953 -7.697494) (xy 5.447887 -7.670423) (xy 5.496221 -7.648702)
+					(xy 5.550957 -7.631784) (xy 5.60784 -7.621294)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.888082 -7.617813) (xy 4.946701 -7.621239) (xy 5.000921 -7.631239) (xy 5.051334 -7.647562)
+					(xy 5.099087 -7.670323) (xy 5.141937 -7.698299) (xy 5.180343 -7.73163) (xy 5.213796 -7.769879)
+					(xy 5.241837 -7.812675) (xy 5.264607 -7.860493) (xy 5.280897 -7.911001) (xy 5.290884 -7.965382)
+					(xy 5.294307 -8.024233) (xy 5.29076 -8.081724) (xy 5.280371 -8.135214) (xy 5.263337 -8.185287)
+					(xy 5.23978 -8.23263) (xy 5.210905 -8.275281) (xy 5.176533 -8.313661) (xy 5.137312 -8.347173) (xy 5.093661 -8.375397)
+					(xy 5.04513 -8.398462) (xy 4.993959 -8.415066) (xy 4.939085 -8.425224) (xy 4.879924 -8.428699)
+					(xy 4.82461 -8.424997) (xy 4.770406 -8.413898) (xy 4.718431 -8.395702) (xy 4.670559 -8.370912)
+					(xy 4.627195 -8.33967) (xy 4.589959 -8.302866) (xy 4.707245 -8.169997) (xy 4.731134 -8.193248)
+					(xy 4.756679 -8.213033) (xy 4.784357 -8.229309) (xy 4.814272 -8.241561) (xy 4.846053 -8.249191)
+					(xy 4.881194 -8.251819) (xy 4.925349 -8.247716) (xy 4.966337 -8.235601) (xy 5.003711 -8.215896)
+					(xy 5.035702 -8.189488) (xy 5.061837 -8.15685) (xy 5.082157 -8.11729) (xy 5.094677 -8.073282) (xy 5.099059 -8.022279)
+					(xy 5.094746 -7.97227) (xy 5.082353 -7.928539) (xy 5.061992 -7.889239) (xy 5.03497 -7.856536) (xy 5.00147 -7.830294)
+					(xy 4.961159 -7.81057) (xy 4.916475 -7.798691) (xy 4.865319 -7.794547) (xy 4.830789 -7.797078)
+					(xy 4.797663 -7.80461) (xy 4.766143 -7.816596) (xy 4.737531 -7.832112) (xy 4.711447 -7.850952)
+					(xy 4.68878 -7.872119) (xy 4.596798 -7.725964) (xy 4.628066 -7.697494) (xy 4.670999 -7.670423)
+					(xy 4.719334 -7.648702) (xy 4.774069 -7.631784) (xy 4.830953 -7.621294)
+				)
+			)
+		)
+	)
+	(fp_text user "D3"
+		(at -4.0386 -7.4676 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "deceb438-1e6b-4b71-b0de-f913d70f344b")
+		(effects
+			(font
+				(face "Lexend")
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "D3" 0
+			(polygon
+				(pts
+					(xy -4.136785 -7.6036) (xy -4.465536 -7.6036) (xy -4.522683 -7.606912) (xy -4.57517 -7.616549)
+					(xy -4.62361 -7.632225) (xy -4.669526 -7.654169) (xy -4.710484 -7.681045) (xy -4.746953 -7.712971)
+					(xy -4.778619 -7.749647) (xy -4.805174 -7.790921) (xy -4.826722 -7.837291) (xy -4.842101 -7.886177)
+					(xy -4.85153 -7.938765) (xy -4.854761 -7.995609) (xy -4.662103 -7.995609) (xy -4.658427 -7.946666)
+					(xy -4.647888 -7.903676) (xy -4.630336 -7.864775) (xy -4.607197 -7.832992) (xy -4.578158 -7.807158)
+					(xy -4.543547 -7.787661) (xy -4.504797 -7.775711) (xy -4.459918 -7.771541) (xy -4.327197 -7.771541)
+					(xy -4.327197 -8.219678) (xy -4.459918 -8.219678) (xy -4.504767 -8.215491) (xy -4.543352 -8.203509)
+					(xy -4.577774 -8.184026) (xy -4.606953 -8.157982) (xy -4.630307 -8.126008) (xy -4.647888 -8.087249)
+					(xy -4.658423 -8.044478) (xy -4.662103 -7.995609) (xy -4.854761 -7.995609) (xy -4.851514 -8.052878)
+					(xy -4.84207 -8.105466) (xy -4.826722 -8.153976) (xy -4.80519 -8.199993) (xy -4.778563 -8.24118)
+					(xy -4.746708 -8.278003) (xy -4.710081 -8.310097) (xy -4.669117 -8.337032) (xy -4.623366 -8.358945)
+					(xy -4.575082 -8.374641) (xy -4.522681 -8.384298) (xy -4.465536 -8.387619) (xy -4.136785 -8.387619)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.224643 -7.592413) (xy -5.162296 -7.597068) (xy -5.107218 -7.610448) (xy -5.058216 -7.632078)
+					(xy -5.014577 -7.662877) (xy -4.971449 -7.707769) (xy -4.92862 -7.769733) (xy -5.065787 -7.857368)
+					(xy -5.091353 -7.821342) (xy -5.116394 -7.795086) (xy -5.143915 -7.774529) (xy -5.171349 -7.760941)
+					(xy -5.200419 -7.752934) (xy -5.231042 -7.750243) (xy -5.261473 -7.753813) (xy -5.289074 -7.76436)
+					(xy -5.31297 -7.781331) (xy -5.331572 -7.803879) (xy -5.343445 -7.830889) (xy -5.347546 -7.862692)
+					(xy -5.343821 -7.895486) (xy -5.333477 -7.921115) (xy -5.316468 -7.941888) (xy -5.293031 -7.957214)
+					(xy -5.264963 -7.966293) (xy -5.229674 -7.969573) (xy -5.194112 -7.965958) (xy -5.154057 -7.955407)
+					(xy -5.110239 -7.937919) (xy -5.068278 -8.048268) (xy -5.258788 -8.255679) (xy -5.310567 -8.227347)
+					(xy -4.983868 -8.233795) (xy -4.983868 -8.394018) (xy -5.465808 -8.394018) (xy -5.500442 -8.3248)
+					(xy -5.240763 -8.047389) (xy -5.196653 -8.100292) (xy -5.226352 -8.108694) (xy -5.266311 -8.112602)
+					(xy -5.316959 -8.107775) (xy -5.364447 -8.093453) (xy -5.408202 -8.070624) (xy -5.446269 -8.040648)
+					(xy -5.477913 -8.004174) (xy -5.502103 -7.961806) (xy -5.517348 -7.91515) (xy -5.522521 -7.864255)
+					(xy -5.517993 -7.813397) (xy -5.504768 -7.767296) (xy -5.482905 -7.724988) (xy -5.453557 -7.687214)
+					(xy -5.418002 -7.655016) (xy -5.375585 -7.628073) (xy -5.32929 -7.608447) (xy -5.279238 -7.596503)
+				)
+			)
+		)
+	)
+	(fp_text user "D1"
+		(at 1.143 -7.493 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "fd7e49c2-592b-4db9-9516-d37a3020312a")
+		(effects
+			(font
+				(face "Lexend")
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+		(render_cache "D1" 0
+			(polygon
+				(pts
+					(xy 1.044814 -7.629) (xy 0.716063 -7.629) (xy 0.658916 -7.632312) (xy 0.606429 -7.641949) (xy 0.557989 -7.657625)
+					(xy 0.512073 -7.679569) (xy 0.471115 -7.706445) (xy 0.434646 -7.738371) (xy 0.40298 -7.775047)
+					(xy 0.376425 -7.816321) (xy 0.354877 -7.862691) (xy 0.339498 -7.911577) (xy 0.330069 -7.964165)
+					(xy 0.326838 -8.021009) (xy 0.519496 -8.021009) (xy 0.523172 -7.972066) (xy 0.533711 -7.929076)
+					(xy 0.551263 -7.890175) (xy 0.574402 -7.858392) (xy 0.603441 -7.832558) (xy 0.638052 -7.813061)
+					(xy 0.676802 -7.801111) (xy 0.721681 -7.796941) (xy 0.854402 -7.796941) (xy 0.854402 -8.245078)
+					(xy 0.721681 -8.245078) (xy 0.676832 -8.240891) (xy 0.638247 -8.228909) (xy 0.603825 -8.209426)
+					(xy 0.574646 -8.183382) (xy 0.551292 -8.151408) (xy 0.533711 -8.112649) (xy 0.523176 -8.069878)
+					(xy 0.519496 -8.021009) (xy 0.326838 -8.021009) (xy 0.330085 -8.078278) (xy 0.339529 -8.130866)
+					(xy 0.354877 -8.179376) (xy 0.376409 -8.225393) (xy 0.403036 -8.26658) (xy 0.434891 -8.303403)
+					(xy 0.471518 -8.335497) (xy 0.512482 -8.362432) (xy 0.558233 -8.384345) (xy 0.606517 -8.400041)
+					(xy 0.658918 -8.409698) (xy 0.716063 -8.413019) (xy 1.044814 -8.413019)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.041953 -7.683856) (xy 0.041953 -8.32006) (xy 0.000529 -8.224366) (xy 0.168568 -8.145817)
+					(xy 0.201053 -8.31542) (xy -0.021891 -8.424205) (xy -0.144404 -8.424205) (xy -0.144404 -7.683856)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.185568 -7.629) (xy 0.185568 -7.796941) (xy -0.291389 -7.796941) (xy -0.291389 -7.629)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -23.595165 -8.466608)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "ce89f9f8-330f-452b-a789-5b67d6f9b7a5")
+	)
+	(pad "1" thru_hole circle
+		(at -23.535465 9.316992)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "f3a263c8-876c-4eeb-b1d4-f886c72e3b51")
+	)
+	(pad "1" thru_hole rect
+		(at 5.664535 -9.793008 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "cd3526c2-6890-4d11-82c9-b94025fcfff9")
+	)
+	(pad "1" thru_hole circle
+		(at 22.124527 -8.466636)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "557844fc-062b-4b29-9033-623617f37ec7")
+	)
+	(pad "1" thru_hole circle
+		(at 22.124527 9.313364)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "87ea60b4-76e3-41f0-be2a-d8d0cdb56d0a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.124535 -9.793008 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "b0b4169c-e104-4eb3-a9a5-3253fa5eb9fa")
+	)
+	(pad "3" thru_hole circle
+		(at 0.584535 -9.793008 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "3999240c-a612-4644-b521-f5e0e1d172d2")
+	)
+	(pad "4" thru_hole circle
+		(at -1.955465 -9.793008 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "0e5ba550-b1d5-4799-9f63-a203af558065")
+	)
+	(pad "5" thru_hole circle
+		(at -4.495465 -9.793008 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "9d7edef5-0cb4-45d9-bf0e-f20f9ca082a3")
+	)
+	(group ""
+		(uuid "c94e1aac-1c7f-481f-be2d-b3b11c77f655")
+		(members "907c61b3-5947-4555-b01c-f73753543455")
+	)
+	(embedded_fonts no)
+)
