@@ -121,7 +121,7 @@
 		)
 	)
 	(fp_text user "SD3"
-		(at 6.36 -2.74 0)
+		(at 9 -2.7 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "1cad1d39-ebc6-445e-950a-763b56d0de54")
@@ -149,7 +149,7 @@
 		)
 	)
 	(fp_text user "G"
-		(at 9 -2.74 0)
+		(at 6.4 -2.7 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "5f963790-56cd-49d3-b096-35aeb86e8cd2")
@@ -317,15 +317,15 @@
 		(uuid "a813c4df-7e79-40cb-b913-05dca6359237")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_flash.wrl"
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_flash_half.wrl"
 		(offset
-			(xyz 0 0 7)
+			(xyz 0 0 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 180)
+			(xyz -0 -0 -180)
 		)
 	)
 )

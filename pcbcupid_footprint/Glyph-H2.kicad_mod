@@ -976,13 +976,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/esp32h2.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 3.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

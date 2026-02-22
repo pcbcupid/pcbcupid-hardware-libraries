@@ -4899,7 +4899,7 @@ DEF SHAPE_166 Shape {
 ] }
 DEF TXFM_43 Transform {
   center 0 0 0
-  rotation 0 0 1 1.5707963
+  rotation 0.70710678 -0.70710678 0 3.1415927
   scale 1 1 1
   scaleOrientation 0 0 1 0
   translation -2.4067764 3.1789441 0.31496063

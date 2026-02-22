@@ -399,7 +399,7 @@
 	(embedded_fonts no)
 	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_can.wrl"
 		(offset
-			(xyz 0 0 1)
+			(xyz 0 0 2)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -596,4 +596,15 @@
 		(uuid "c95ed247-839c-4f22-830a-72648fd4c1e6")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_motor-driver.wrl"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

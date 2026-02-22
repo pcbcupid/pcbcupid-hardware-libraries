@@ -285,4 +285,15 @@
 		(uuid "50e02209-8e08-42e8-80bc-5e6b95f96979")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/PCBCUPID-MAGNETOMETER.wrl"
+		(offset
+			(xyz 0 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

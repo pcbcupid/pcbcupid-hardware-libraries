@@ -452,4 +452,15 @@
 		(uuid "d4eff886-12e1-4bdd-8af9-860669ca0037")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/PCB-CUPID-MICROPHONE.wrl"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

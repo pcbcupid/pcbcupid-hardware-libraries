@@ -640,7 +640,7 @@ DEF SHAPE_26 Shape {
 ] }
 DEF TXFM_6 Transform {
   center 0 0 0
-  rotation 0 0 -1 1.5707963
+  rotation -0.70710678 -0.70710678 0 3.1415927
   scale 1 1 1
   scaleOrientation 0 0 1 0
   translation 2.5 4 0.31496063
@@ -4600,7 +4600,7 @@ DEF SHAPE_202 Shape {
 ] }
 DEF TXFM_40 Transform {
   center 0 0 0
-  rotation 0 0 -1 1.5707963
+  rotation -0.70710678 -0.70710678 0 3.1415927
   scale 1 1 1
   scaleOrientation 0 0 1 0
   translation 2.5 -4 0.31496063
@@ -20502,7 +20502,7 @@ DEF SHAPE_901 Shape {
 ] }
 DEF TXFM_92 Transform {
   center 0 0 0
-  rotation 0 0 1 3.1415927
+  rotation 1 0 0 3.1415927
   scale 1 1 1
   scaleOrientation 0 0 1 0
   translation 4.5 -1 0.31496063

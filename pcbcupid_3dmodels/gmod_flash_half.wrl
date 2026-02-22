@@ -4253,7 +4253,7 @@ USE TXFM_3
 ] }
 DEF TXFM_16 Transform {
   center 0 0 0
-  rotation 0 0 -1 1.5707963
+  rotation -0.70710678 -0.70710678 0 3.1415927
   scale 1 1 1
   scaleOrientation 0 0 1 0
   translation 3.5 -1.75 0.31496063
