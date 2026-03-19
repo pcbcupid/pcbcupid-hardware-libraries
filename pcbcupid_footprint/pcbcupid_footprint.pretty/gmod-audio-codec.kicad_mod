@@ -678,4 +678,15 @@
 		(uuid "f57f0862-2e4f-41cd-b6eb-6fda66300454")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/PCBCUPID-AUDIO-CODEC.wrl"
+		(offset
+			(xyz 0 0 2.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
