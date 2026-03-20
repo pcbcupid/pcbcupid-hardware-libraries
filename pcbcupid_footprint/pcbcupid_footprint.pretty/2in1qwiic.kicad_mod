@@ -155,4 +155,15 @@
 		(uuid "5b299c53-e7c1-40b5-b288-2382d0537572")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/qwiic-2in1.wrl"
+		(offset
+			(xyz -1.5 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
