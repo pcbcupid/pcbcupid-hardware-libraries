@@ -195,45 +195,6 @@
 		(layer "Edge.Cuts")
 		(uuid "d30fb2a5-be88-4519-9eed-45c7ef80c415")
 	)
-	(fp_text user "A"
-		(at -1.140432 5.195805 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "0e008fcb-7e1d-4ac5-bbb6-460a473f3fe5")
-		(effects
-			(font
-				(size 1.25 1.25)
-				(thickness 0.25)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "VCC"
-		(at 6.619568 -7.329195 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2aa613e3-8ca2-42b0-96ef-ce4e81ea0c39")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "G"
-		(at -3.690432 -8.119195 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "5396a9c3-db42-4800-b231-a3ad138c0a85")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
-			)
-		)
-	)
 	(fp_text user "RS485-TRANSCEIVER"
 		(at -0.05 -0.15 0)
 		(unlocked yes)
@@ -248,22 +209,65 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "B"
-		(at 1.399568 5.195805 0)
+	(fp_text user "A"
+		(at -1 5.5 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
+		(uuid "0e008fcb-7e1d-4ac5-bbb6-460a473f3fe5")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at -3.5 -7.5 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2aa613e3-8ca2-42b0-96ef-ce4e81ea0c39")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "G"
+		(at 6.5 -7.5 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "5396a9c3-db42-4800-b231-a3ad138c0a85")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "B"
+		(at 1.5 5.5 270)
+		(unlocked yes)
+		(layer "B.SilkS")
 		(uuid "6ce62887-c284-4c65-b22a-308c1710efc4")
 		(effects
 			(font
 				(size 1.25 1.25)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "TX"
-		(at -1.100432 -7.799195 90)
+		(at 1.5 -7.5 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "adf1c9d6-d9ea-4c33-a1fc-b804408fdd42")
 		(effects
 			(font
@@ -271,12 +275,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "G"
-		(at 3.939568 5.195805 0)
+		(at 4 5.5 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "d8aed9f3-0c83-4ecd-b1c0-43c12566ca70")
 		(effects
 			(font
@@ -284,12 +289,13 @@
 				(thickness 0.25)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "DE"
-		(at 1.359568 -7.799195 90)
+		(at -1 -7.5 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "e7ab5df5-6c72-45dd-b2c9-7da0e04d613c")
 		(effects
 			(font
@@ -297,12 +303,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "RX"
-		(at 3.926868 -7.637039 90)
+		(at 4 -7.5 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "f00f18f5-ea4e-47cd-8c6b-1532f7f80676")
 		(effects
 			(font
@@ -310,6 +317,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -389,4 +397,15 @@
 		(uuid "8bb214cf-c55f-48b4-9a86-f2c73c3628bf")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_rs485.wrl"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

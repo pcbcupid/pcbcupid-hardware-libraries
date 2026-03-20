@@ -309,9 +309,9 @@
 		(uuid "a813c4df-7e79-40cb-b913-05dca6359237")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_flash.wrl"
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_half_flash.wrl"
 		(offset
-			(xyz 0 0 7)
+			(xyz 0 0 3)
 		)
 		(scale
 			(xyz 1 1 1)
