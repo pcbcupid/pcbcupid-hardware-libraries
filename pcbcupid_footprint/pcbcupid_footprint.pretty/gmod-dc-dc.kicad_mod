@@ -520,15 +520,15 @@
 		(uuid "4f9aa379-bacc-4440-899f-c23ebafb0d00")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_can.wrl"
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_dc-dc_adjustable.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
