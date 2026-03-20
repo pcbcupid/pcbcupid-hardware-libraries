@@ -195,32 +195,6 @@
 		(layer "Edge.Cuts")
 		(uuid "c558c975-093d-4d25-9bcf-78b745226f9c")
 	)
-	(fp_text user "VCC"
-		(at 4.214 -8.19 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "1b87af49-37a2-4768-89b4-ff3cfec79549")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "RX"
-		(at -1.12 -8.19 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "44695c95-eeaf-40f7-8097-d89e37694050")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
 	(fp_text user "USB-TTL"
 		(at -2.304 0.104 0)
 		(unlocked yes)
@@ -235,10 +209,38 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "VCC"
+		(at 4.214 -8.19 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "1b87af49-37a2-4768-89b4-ff3cfec79549")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "RX"
+		(at -1.12 -8.19 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "44695c95-eeaf-40f7-8097-d89e37694050")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "VBUS"
 		(at -6.3 -8.216 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "7a6a3edd-c82e-4641-9082-8e46a9f0832b")
 		(effects
 			(font
@@ -246,12 +248,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "TX"
 		(at -3.39 -8.196 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "b6469fa6-6121-4e19-8f25-76ad047b2c4b")
 		(effects
 			(font
@@ -259,12 +262,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "GND"
 		(at 1.42 -8.19 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "c0b6193d-415e-4d68-bd9b-c15a7c3cff65")
 		(effects
 			(font
@@ -272,6 +276,7 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -326,4 +331,15 @@
 		(uuid "dff66d22-125a-44fe-be48-eebc63028440")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_usb-ttl.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
