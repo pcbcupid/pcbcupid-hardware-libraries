@@ -1,4 +1,4 @@
-(footprint "glyph-c6"
+(footprint "GLYPH-C6"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -964,4 +964,15 @@
 		(uuid "b3533879-bbaf-445d-b7fa-e777d4d81935")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/esp32c6.wrl"
+		(offset
+			(xyz 0 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
