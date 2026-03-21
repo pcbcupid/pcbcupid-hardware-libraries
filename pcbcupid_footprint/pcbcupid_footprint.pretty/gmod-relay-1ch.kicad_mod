@@ -65,6 +65,45 @@
 			)
 		)
 	)
+	(property "MP" "EL817-ND"
+		(at 24.9428 38.0746 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06c65cf3-6738-4436-b656-107b31946f2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at 24.9428 38.0746 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "754df913-c473-46b7-8978-00edda101b4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 24.9428 38.0746 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27282925-b91a-43b9-8850-004d0d497854")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -25.478356 9.65208)
@@ -194,76 +233,6 @@
 		(layer "Dwgs.User")
 		(uuid "b37dcf05-b478-4c6e-8cf2-a5fe22e5b6e0")
 	)
-	(fp_text user "IN"
-		(at -22.21 4.01 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "075c5ba5-97bf-442c-9342-5c8b1c1dbd27")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "COM"
-		(at 17.55 1.16 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "5a4bd891-cc4c-44b4-b847-1aa52bb172c0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "NO"
-		(at 17.775 6.235 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "98ef1a39-0722-4cf3-bbd4-5b25f0b2493a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "VCC"
-		(at -23.54 -1.22 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "c3a6f2f3-605a-4692-a24a-6ad478e29a19")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "NC"
-		(at 17.65 -3.99 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "e9145e98-3395-4653-bfed-791d485127bc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "RELAY CH1"
 		(at 0.06 -0.94 0)
 		(unlocked yes)
@@ -278,10 +247,80 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "GND"
-		(at -23.675 1.435 0)
+	(fp_text user "IN"
+		(at -18.9484 3.8354 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
+		(uuid "075c5ba5-97bf-442c-9342-5c8b1c1dbd27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "COM"
+		(at 20.8788 1.2446 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "5a4bd891-cc4c-44b4-b847-1aa52bb172c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "NO"
+		(at 19.939 6.235 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "98ef1a39-0722-4cf3-bbd4-5b25f0b2493a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at -17.3736 -1.3462 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c3a6f2f3-605a-4692-a24a-6ad478e29a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "NC"
+		(at 20.066 -3.937 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "e9145e98-3395-4653-bfed-791d485127bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at -17.3482 1.4478 0)
+		(unlocked yes)
+		(layer "B.SilkS")
 		(uuid "ec18a17e-e5a7-4c51-b0bf-ebf1cbda3aa3")
 		(effects
 			(font
@@ -289,7 +328,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -305,7 +344,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -19.25 -1.88)
+		(at -21.5646 -1.905)
 		(size 1.905 1.905)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -313,7 +352,7 @@
 		(uuid "d6f69125-0ddd-400f-842e-92f52c20502a")
 	)
 	(pad "2" thru_hole circle
-		(at -19.25 0.72)
+		(at -21.59 0.7366)
 		(size 1.905 1.905)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -321,7 +360,7 @@
 		(uuid "69a1ea0f-45a0-4812-ba65-1083e3d4649d")
 	)
 	(pad "3" thru_hole circle
-		(at -19.25 3.22)
+		(at -21.6662 3.2258)
 		(size 1.905 1.905)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -353,9 +392,9 @@
 		(uuid "81c1e587-0534-4bf8-82b1-40ee90c95b13")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod-relay-1ch.wrl"
+	(model "D:/KICAD PROJECTS/CH1 relay/PCBCUPID-RELAY-1CH.step"
 		(offset
-			(xyz 0 0 3)
+			(xyz -124.65 87.04 9.5)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -364,9 +403,20 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "C:/Program Files/KiCad/9.0/share/kicad/3dmodels/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.wrl"
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/PCBCUPID-RELAY-1CH.wrl"
 		(offset
-			(xyz -20.65 1.04 -1.5)
+			(xyz 0 -0.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod-relay-1ch.wrl"
+		(offset
+			(xyz 0 0 3)
 		)
 		(scale
 			(xyz 1 1 1)

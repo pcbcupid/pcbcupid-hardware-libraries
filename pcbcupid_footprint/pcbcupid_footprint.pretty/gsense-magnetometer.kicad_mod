@@ -182,62 +182,6 @@
 		(layer "Edge.Cuts")
 		(uuid "5d02e6f5-43a1-44c2-81ab-9eff2ca39a06")
 	)
-	(fp_text user "SCL"
-		(at 3.285858 -6.7 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2fb82fab-027d-4168-8891-df7a777208ae")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "VCC"
-		(at -4.314142 -6.55 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "67ed1bb2-858b-49d5-b0e1-5e04033e1432")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "GND"
-		(at -1.764142 -6.625 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "82b8480d-10db-4bbc-9ad7-75e4afe5d625")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "SDA"
-		(at 0.785858 -6.625 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "909cde9f-1b27-46e4-b85c-3ae7a7268ce8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "QMC6309\n"
 		(at -0.309142 1.11 0)
 		(unlocked yes)
@@ -250,6 +194,62 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 4.4958 -6.4008 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2fb82fab-027d-4168-8891-df7a777208ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "VCC"
+		(at -3.175 -6.3754 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "67ed1bb2-858b-49d5-b0e1-5e04033e1432")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at -0.508 -6.604 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "82b8480d-10db-4bbc-9ad7-75e4afe5d625")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "SDA"
+		(at 1.905 -6.3754 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "909cde9f-1b27-46e4-b85c-3ae7a7268ce8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(pad "1" thru_hole rect
@@ -285,4 +285,15 @@
 		(uuid "50e02209-8e08-42e8-80bc-5e6b95f96979")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/PCBCUPID-MAGNETOMETER.wrl"
+		(offset
+			(xyz 0 0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -195,58 +195,6 @@
 		(layer "Edge.Cuts")
 		(uuid "302a758e-c0ed-4b36-8853-0b25c973449c")
 	)
-	(fp_text user "BIN2"
-		(at -3.77444 7.119034 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "0d4c0da5-5b0b-4b77-bc65-655baa5279e8")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "STB"
-		(at 9.906 -2.64453 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "113803f6-203e-40f6-8c4f-33b1bfd8bbc7")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "VM"
-		(at -6.775 0.627 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "298c7e7d-cc6b-423a-bfdb-cda6e638d1ec")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "PWMA"
-		(at 6.5278 6.769669 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "31a87f5a-e98f-460d-8d05-e89e713f8bc3")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.16)
-				(bold yes)
-			)
-		)
-	)
 	(fp_text user "MOTOR-DRIVER"
 		(at -4.11 -0.16 0)
 		(unlocked yes)
@@ -261,10 +209,66 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "AIN1"
-		(at 1.37668 7.115908 90)
+	(fp_text user "BIN2"
+		(at -3.77444 7.119034 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
+		(uuid "0d4c0da5-5b0b-4b77-bc65-655baa5279e8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "STB"
+		(at 9.906 -2.64453 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "113803f6-203e-40f6-8c4f-33b1bfd8bbc7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "VM"
+		(at -6.775 0.627 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "298c7e7d-cc6b-423a-bfdb-cda6e638d1ec")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "PWMA"
+		(at 6.5278 6.769669 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "31a87f5a-e98f-460d-8d05-e89e713f8bc3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "AIN1"
+		(at 1.37668 7.115908 270)
+		(unlocked yes)
+		(layer "B.SilkS")
 		(uuid "36a1e2f5-6555-4d13-99c7-b63b42d160fd")
 		(effects
 			(font
@@ -272,12 +276,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "GND"
-		(at -1.27 -7.440641 90)
+		(at -1.27 -7.440641 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "509e60b6-0480-4d55-882f-b69504051b7b")
 		(effects
 			(font
@@ -285,12 +290,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "AO-1"
-		(at 6.35 -7.366 90)
+		(at 6.35 -7.366 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "5a9f6e56-b276-444d-ba38-afb24b3ea511")
 		(effects
 			(font
@@ -298,12 +304,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "VCC"
-		(at 9.906 2.68947 90)
+		(at 9.906 2.68947 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "6ccb899b-3b74-4868-a77f-971c2314e798")
 		(effects
 			(font
@@ -311,12 +318,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "BO-2"
-		(at -3.81 -7.357794 90)
+		(at -3.81 -7.357794 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "7cf28d3a-6ecb-4892-84c7-d432e44e82e5")
 		(effects
 			(font
@@ -324,12 +332,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "PWMB"
-		(at -6.35 6.765761 90)
+		(at -6.35 6.765761 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "813a7659-04b7-4111-ad4a-16962101116a")
 		(effects
 			(font
@@ -337,12 +346,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "G"
-		(at 9.906 0 90)
+		(at 9.906 0 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "a3a1b08c-f1b4-43a0-85cf-49517f4b9593")
 		(effects
 			(font
@@ -350,12 +360,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "GND"
-		(at -6.775 -2.675 90)
+		(at -6.775 -2.675 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "b4fc4324-73dc-4293-b43d-e4b1d7c3996a")
 		(effects
 			(font
@@ -363,12 +374,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "AIN2"
-		(at 3.95224 7.122942 90)
+		(at 3.95224 7.122942 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "cec7dbc8-8f2c-44a0-9cb2-a66948460d4f")
 		(effects
 			(font
@@ -376,12 +388,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "GND"
-		(at 1.27 -7.440641 90)
+		(at 1.27 -7.440641 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "ded172f1-513c-41b6-b104-431430dffc4f")
 		(effects
 			(font
@@ -389,12 +402,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "AO-2"
-		(at 3.81 -7.373035 90)
+		(at 3.81 -7.373035 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "ecbd7461-ee38-47a0-9095-ea5dfd6456ba")
 		(effects
 			(font
@@ -402,12 +416,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "BO-1"
-		(at -6.35 -7.35076 90)
+		(at -6.35 -7.35076 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "ed91f2ee-f9a6-4b80-9a4f-1aa342e8d3ab")
 		(effects
 			(font
@@ -415,12 +430,13 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "BIN1"
-		(at -1.19888 7.112 90)
+		(at -1.19888 7.112 270)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "f392deee-b49e-4ada-a2da-e69f89e0c81d")
 		(effects
 			(font
@@ -428,6 +444,7 @@
 				(thickness 0.16)
 				(bold yes)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -581,7 +598,7 @@
 	(embedded_fonts no)
 	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_motor-driver.wrl"
 		(offset
-			(xyz 0 0 3)
+			(xyz 0 0 3.5)
 		)
 		(scale
 			(xyz 1 1 1)
