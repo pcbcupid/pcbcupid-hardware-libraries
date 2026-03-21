@@ -160,34 +160,6 @@
 		(layer "Edge.Cuts")
 		(uuid "92b311d5-3398-431c-9f45-6e0ba33e176e")
 	)
-	(fp_text user "CS"
-		(at 0.683641 -6.609769 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "37eaf4e6-258f-4cbf-8757-b66721403a1b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "GND"
-		(at 5.858641 -6.684769 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3f95adab-9d27-47df-a59a-e1014637af5b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "MICRO SD CARD\n"
 		(at 0.043641 0.110231 0)
 		(unlocked yes)
@@ -202,10 +174,38 @@
 			(justify bottom)
 		)
 	)
-	(fp_text user "CD"
-		(at 3.283641 -6.584769 270)
+	(fp_text user "CS"
+		(at 1.9558 -6.6548 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
+		(uuid "37eaf4e6-258f-4cbf-8757-b66721403a1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "GND"
+		(at 7.0866 -6.6548 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "3f95adab-9d27-47df-a59a-e1014637af5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "CD"
+		(at 4.5212 -6.604 90)
+		(unlocked yes)
+		(layer "B.SilkS")
 		(uuid "b31eb0c0-8798-4f6e-881d-6c287177edac")
 		(effects
 			(font
@@ -213,13 +213,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "MO"
-		(at -4.316359 -6.509769 270)
+		(at -3.2004 -6.4516 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "b5898a7b-a62c-4121-8fd4-67a764a46412")
 		(effects
 			(font
@@ -227,13 +227,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "M1"
-		(at -1.791359 -6.584769 270)
+		(at -0.5842 -6.5786 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "c143c749-20a9-4316-8975-3083e1ae4da6")
 		(effects
 			(font
@@ -241,13 +241,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "D2"
-		(at 8.408641 -6.709769 270)
+		(at 9.5758 -6.477 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "d3915a64-047a-4259-891b-fe6933c7fe37")
 		(effects
 			(font
@@ -255,13 +255,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "SCK"
-		(at -6.866359 -6.484769 270)
+		(at -5.6896 -6.5278 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "da9321c6-620a-4f81-a6d4-42238a26391a")
 		(effects
 			(font
@@ -269,13 +269,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "D1"
-		(at -9.416359 -6.559769 270)
+		(at -8.255 -6.4516 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "e2b60940-456a-4669-845c-fff46ab0bac5")
 		(effects
 			(font
@@ -283,13 +283,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "3V3"
-		(at -11.891359 -6.409769 270)
+		(at -10.7696 -6.4516 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "f240220f-f31e-45b3-bd0c-de86e9ab0318")
 		(effects
 			(font
@@ -297,7 +297,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -486,7 +486,7 @@
 	(embedded_fonts no)
 	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_microsdcard.wrl"
 		(offset
-			(xyz 0 0 3.25)
+			(xyz 0 0 3)
 		)
 		(scale
 			(xyz 1 1 1)

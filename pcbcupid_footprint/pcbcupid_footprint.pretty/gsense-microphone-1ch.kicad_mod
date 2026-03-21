@@ -210,9 +210,9 @@
 		)
 	)
 	(fp_text user "LR"
-		(at 3.481463 -6.862479 270)
+		(at 4.6736 -6.8072 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "49b48986-92c8-4f3a-a057-ed1dc8ae91b0")
 		(effects
 			(font
@@ -220,13 +220,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "SCK"
-		(at -4.168537 -7.062479 270)
+		(at -3.0226 -7.0104 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "4fa71ee5-d539-45f4-b9fc-bdc7760bbb17")
 		(effects
 			(font
@@ -234,13 +234,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "VCC"
-		(at -6.938537 -6.982479 270)
+		(at -5.5118 -7.0104 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "6cf98a8f-ac1f-4b17-9ffa-c5673784df58")
 		(effects
 			(font
@@ -248,13 +248,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "SD"
-		(at -1.558537 -6.942479 270)
+		(at -0.4318 -6.7818 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "8896c0a5-ced9-4341-b3c8-ef2a0b005e65")
 		(effects
 			(font
@@ -262,13 +262,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "WS"
-		(at 0.921463 -6.902479 270)
+		(at 2.1336 -6.731 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "dabbda14-776c-4141-a0ac-d689e22f853d")
 		(effects
 			(font
@@ -276,13 +276,13 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "GND"
-		(at 6.051463 -6.902479 270)
+		(at 7.1882 -6.8072 90)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "f52f6fc3-814d-4d56-8fd4-5de326e72652")
 		(effects
 			(font
@@ -290,7 +290,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -452,4 +452,15 @@
 		(uuid "d4eff886-12e1-4bdd-8af9-860669ca0037")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/PCB-CUPID-MICROPHONE.wrl"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
