@@ -1,4 +1,4 @@
-(footprint "POTENTIOMETER 90'"
+(footprint "90deg_potentiometer"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "POTENTIOMETER 90'"
+	(property "Value" "90deg_potentiometer"
 		(at 0.6 10 0)
 		(unlocked yes)
 		(layer "F.Fab")

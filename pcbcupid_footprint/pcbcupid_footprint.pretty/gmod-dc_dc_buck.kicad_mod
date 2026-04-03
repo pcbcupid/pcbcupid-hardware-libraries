@@ -1,4 +1,4 @@
-(footprint "gmod-dc-dc"
+(footprint "gmod-dc_dc_buck"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "Gmod DC-DC"
-		(at 0.06 -3.78 0)
+	(property "Value" "gmod-dc_dc_buck"
+		(at 0.0508 -4.3688 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e0fa612b-d637-4f95-8298-13ba6786c8b8")
@@ -392,7 +392,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at 7.5692 -1.8796 0)
+		(at 7.5184 0.762 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "151f33d3-12cb-4427-b368-93536afa6ada")
@@ -406,7 +406,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at -6.1976 0.48 0)
+		(at -6.1976 -1.9558 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "23fdb28d-9966-4837-a637-b6c775a8ba8f")
@@ -434,7 +434,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at -6.3754 -3.78 90)
+		(at -6.5278 -1.143 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "94bff117-55a9-409e-929c-da83fde7dd33")
@@ -448,7 +448,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 6.477 1.3208 270)
+		(at 6.3246 -1.0414 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "a712d2cc-0232-40a6-bddc-a0be3bae0807")
@@ -487,7 +487,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
 		(at 8.893899 -2.538601 90)
 		(size 2 2)
 		(drill 1.2)
@@ -495,7 +495,7 @@
 		(remove_unused_layers no)
 		(uuid "93ad5c89-50e9-4b4b-a4f7-1639449c7596")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole rect
 		(at -8.886101 -2.538601 270)
 		(size 2 2)
 		(drill 1.2)
@@ -511,7 +511,7 @@
 		(remove_unused_layers no)
 		(uuid "11a44ad2-64f4-41f5-b794-382a4736305d")
 	)
-	(pad "4" thru_hole circle
+	(pad "4" thru_hole rect
 		(at 8.893899 0.001399 90)
 		(size 2 2)
 		(drill 1.2)

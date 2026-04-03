@@ -1,4 +1,4 @@
-(footprint "gmod-micro-sd-breakout"
+(footprint "gmod-micro_sd"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MicroSDCard"
+	(property "Value" "gmod-micro_sd"
 		(at -0.016359 5.070231 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -175,7 +175,7 @@
 		)
 	)
 	(fp_text user "CS"
-		(at 1.9558 -6.6548 90)
+		(at 0.8128 -4.3434 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "37eaf4e6-258f-4cbf-8757-b66721403a1b")
@@ -189,7 +189,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 7.0866 -6.6548 90)
+		(at 5.8674 -3.2766 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "3f95adab-9d27-47df-a59a-e1014637af5b")
@@ -203,7 +203,7 @@
 		)
 	)
 	(fp_text user "CD"
-		(at 4.5212 -6.604 90)
+		(at 3.3274 -4.3434 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "b31eb0c0-8798-4f6e-881d-6c287177edac")
@@ -217,7 +217,7 @@
 		)
 	)
 	(fp_text user "MO"
-		(at -3.2004 -6.4516 90)
+		(at -3.1242 -6.477 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "b5898a7b-a62c-4121-8fd4-67a764a46412")
@@ -230,7 +230,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(fp_text user "M1"
+	(fp_text user "MI"
 		(at -0.5842 -6.5786 90)
 		(unlocked yes)
 		(layer "B.SilkS")
@@ -245,7 +245,7 @@
 		)
 	)
 	(fp_text user "D2"
-		(at 9.5758 -6.477 90)
+		(at 8.2804 -4.3434 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "d3915a64-047a-4259-891b-fe6933c7fe37")
@@ -259,7 +259,7 @@
 		)
 	)
 	(fp_text user "SCK"
-		(at -5.6896 -6.5278 90)
+		(at -6.9596 -3.429 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "da9321c6-620a-4f81-a6d4-42238a26391a")
@@ -273,7 +273,7 @@
 		)
 	)
 	(fp_text user "D1"
-		(at -8.255 -6.4516 90)
+		(at -9.4234 -4.3688 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "e2b60940-456a-4669-845c-fff46ab0bac5")
@@ -287,7 +287,7 @@
 		)
 	)
 	(fp_text user "3V3"
-		(at -10.7696 -6.4516 90)
+		(at -11.9634 -3.3782 270)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "f240220f-f31e-45b3-bd0c-de86e9ab0318")

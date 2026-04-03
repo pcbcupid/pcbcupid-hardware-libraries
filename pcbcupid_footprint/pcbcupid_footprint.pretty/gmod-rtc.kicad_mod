@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "RTC Module"
+	(property "Value" "gmod_rtc"
 		(at 0.04 2.53 0)
 		(unlocked yes)
 		(layer "F.Fab")
