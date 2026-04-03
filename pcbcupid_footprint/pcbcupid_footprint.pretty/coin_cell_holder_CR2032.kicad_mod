@@ -1,4 +1,4 @@
-(footprint "MICRO LITHIUM CELL CR2032"
+(footprint "coin_cell_holder_CR2032"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,9 +6,8 @@
 	(descr "http://www.keyelco.com/product-pdf.cfm?p=719")
 	(tags "Keystone type 103 battery holder")
 	(property "Reference" "REF**"
-		(at 0 -4.3 0)
+		(at 0 -7.25 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "dcae7e4d-1f08-47eb-91d2-1da96e82ca96")
 		(effects
 			(font
@@ -17,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MICRO LITHIUM CELL CR2032"
+	(property "Value" "coin_cell_holder_CR2032"
 		(at -0.398127 13.396155 0)
 		(layer "F.Fab")
 		(uuid "7f2dca49-e855-496a-88b0-bfa2a25730ca")
@@ -428,11 +427,24 @@
 	)
 	(fp_text user "+"
 		(at -12.648127 0.396155 0)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "fdf7ade8-5716-4835-9a77-d817be39cf8f")
 		(effects
 			(font
 				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87a78466-f2a8-44e4-82e7-1460e4b4770d")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)

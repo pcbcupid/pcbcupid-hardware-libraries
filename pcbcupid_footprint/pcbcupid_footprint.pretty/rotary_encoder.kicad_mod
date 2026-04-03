@@ -1,4 +1,4 @@
-(footprint "ROTARY ENCODER"
+(footprint "rotary_encoder"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "ROTARY ENCODER"
+	(property "Value" "rotary_encoder"
 		(at 0.02 -13.11 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -306,16 +306,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(pad "1" thru_hole rect
-		(at -2.39 -7.16)
-		(size 1.65 1.65)
-		(drill 1.1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "577bec6d-66f2-4613-a1bf-b84ab82be858")
-	)
-	(pad "2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 2.61 -7.16)
 		(size 1.65 1.65)
 		(drill 1.1)
@@ -324,14 +315,23 @@
 		(solder_mask_margin 0.102)
 		(uuid "eef5af4e-f8f1-4041-bb2e-f6eebec49354")
 	)
-	(pad "3" thru_hole circle
-		(at 2.61 7.34)
+	(pad "2" thru_hole rect
+		(at -2.39 -7.16)
 		(size 1.65 1.65)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "dd8abc51-5878-4ba7-a061-bce4e6738154")
+		(uuid "577bec6d-66f2-4613-a1bf-b84ab82be858")
+	)
+	(pad "3" thru_hole circle
+		(at -2.39 7.34)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "220e6d71-0cb4-400d-9ee2-e7f28244f07c")
 	)
 	(pad "4" thru_hole circle
 		(at 0.11 7.34)
@@ -343,13 +343,13 @@
 		(uuid "5403d886-f143-43ae-a208-9c42b3403bd3")
 	)
 	(pad "5" thru_hole circle
-		(at -2.39 7.34)
+		(at 2.61 7.34)
 		(size 1.65 1.65)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "220e6d71-0cb4-400d-9ee2-e7f28244f07c")
+		(uuid "dd8abc51-5878-4ba7-a061-bce4e6738154")
 	)
 	(pad "S1" thru_hole oval
 		(at -5.59 -0.16)

@@ -1,4 +1,4 @@
-(footprint "gmod-audio-codec"
+(footprint "gmod-audio_codec"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Audio-codec"
+	(property "Value" "Audio_codec"
 		(at 0.186744 -3.502954 0)
 		(unlocked yes)
 		(layer "F.Fab")

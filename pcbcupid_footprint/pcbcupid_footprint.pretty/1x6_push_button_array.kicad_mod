@@ -1,4 +1,4 @@
-(footprint "1X6_Key_Array"
+(footprint "1x6_push_button_array"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "1X6_Key_Array"
+	(property "Value" "1x6_push_button_array"
 		(at 0.6096 -0.0254 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -323,7 +323,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at -1.016 -7.8486 0)
+		(at -1.016 -7.7724 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "ea8c9063-409b-4554-be00-9a65e57a717c")

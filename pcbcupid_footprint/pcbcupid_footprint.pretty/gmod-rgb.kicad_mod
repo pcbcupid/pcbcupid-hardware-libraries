@@ -1,4 +1,4 @@
-(footprint "RGB"
+(footprint "gmod-rgb"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -7,7 +7,6 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "5e9ac1c9-87c9-4fb4-98e8-fb7769c81099")
 		(effects
 			(font
@@ -16,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "RGB"
+	(property "Value" "gmod_rgb"
 		(at 0.439798 -10.266 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -162,7 +161,7 @@
 		(uuid "61a30135-3f67-47a9-830b-62e77d5b036d")
 	)
 	(fp_text user "B"
-		(at -0.2 5.6 0)
+		(at 2.3876 5.588 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "1f8655f8-0ceb-472b-bbde-5f28749010b7")
@@ -176,7 +175,7 @@
 		)
 	)
 	(fp_text user "R"
-		(at 5 5.4 0)
+		(at -3.2004 5.6134 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "4cace147-3502-4dcb-ae72-8fee6b1df174")
@@ -190,7 +189,7 @@
 		)
 	)
 	(fp_text user "C"
-		(at -3.2 5.6 0)
+		(at 5.1054 5.6896 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "4da442ae-68e8-44e8-8d5a-4878c810cc53")
@@ -204,7 +203,7 @@
 		)
 	)
 	(fp_text user "G"
-		(at 2.4 5.6 0)
+		(at -0.3556 5.6388 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "e7835c8d-a780-434d-a916-85e6ed7c026c")
@@ -217,7 +216,19 @@
 			(justify left bottom mirror)
 		)
 	)
-	(pad "1" thru_hole rect
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1cb2f18e-07a7-42d7-a3ce-2e8a4bda36fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
 		(at 4.4 7.4 90)
 		(size 1.7 1.7)
 		(drill 1)
@@ -241,7 +252,7 @@
 		(remove_unused_layers no)
 		(uuid "438374fd-aa47-4e53-8798-c8bb0002c857")
 	)
-	(pad "4" thru_hole circle
+	(pad "4" thru_hole rect
 		(at -3.8 7.4 90)
 		(size 1.7 1.7)
 		(drill 1)

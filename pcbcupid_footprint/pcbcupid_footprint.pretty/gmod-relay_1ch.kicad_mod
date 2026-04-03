@@ -1,4 +1,4 @@
-(footprint "gmod-relay-1ch"
+(footprint "gmod-relay_1ch"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -343,7 +343,15 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
+		(at 16.35 -4.48)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81c1e587-0534-4bf8-82b1-40ee90c95b13")
+	)
+	(pad "2" thru_hole rect
 		(at -21.5646 -1.905)
 		(size 1.905 1.905)
 		(drill 1)
@@ -351,7 +359,7 @@
 		(remove_unused_layers no)
 		(uuid "d6f69125-0ddd-400f-842e-92f52c20502a")
 	)
-	(pad "2" thru_hole circle
+	(pad "3" thru_hole circle
 		(at -21.59 0.7366)
 		(size 1.905 1.905)
 		(drill 1)
@@ -359,7 +367,7 @@
 		(remove_unused_layers no)
 		(uuid "69a1ea0f-45a0-4812-ba65-1083e3d4649d")
 	)
-	(pad "3" thru_hole circle
+	(pad "4" thru_hole circle
 		(at -21.6662 3.2258)
 		(size 1.905 1.905)
 		(drill 1)
@@ -367,7 +375,7 @@
 		(remove_unused_layers no)
 		(uuid "477fd020-e6e0-42bc-905c-e530980c735c")
 	)
-	(pad "4" thru_hole circle
+	(pad "5" thru_hole circle
 		(at 16.35 5.72)
 		(size 1.9 1.9)
 		(drill 1)
@@ -375,21 +383,13 @@
 		(remove_unused_layers no)
 		(uuid "917eda43-3c3d-41b0-b056-e20400f166c1")
 	)
-	(pad "5" thru_hole circle
+	(pad "6" thru_hole circle
 		(at 16.35 0.62)
 		(size 1.9 1.9)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "93bf45d6-b0bc-4b53-b4be-7179f9d2a412")
-	)
-	(pad "6" thru_hole circle
-		(at 16.35 -4.48)
-		(size 1.9 1.9)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "81c1e587-0534-4bf8-82b1-40ee90c95b13")
 	)
 	(embedded_fonts no)
 	(model "D:/KICAD PROJECTS/CH1 relay/PCBCUPID-RELAY-1CH.step"

@@ -1,4 +1,4 @@
-(footprint "2in1qwiic"
+(footprint "qwiic_2in1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "2in1qwiic"
+	(property "Value" "qwiic_2in1"
 		(at 0 14.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
