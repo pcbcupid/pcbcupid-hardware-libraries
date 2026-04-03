@@ -1,4 +1,4 @@
-(footprint "gmod-micro-sd-breakout"
+(footprint "gmod-micro_sd"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MicroSDCard"
+	(property "Value" "gmod-micro_sd"
 		(at -0.016359 5.070231 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -230,7 +230,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(fp_text user "M1"
+	(fp_text user "MI"
 		(at -0.5842 -6.5786 90)
 		(unlocked yes)
 		(layer "B.SilkS")

@@ -1,12 +1,11 @@
-(footprint "capacitor"
+(footprint "capacitor_tht"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -1.079 -7.9882 0)
+		(at 0 -4.445 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "fd173275-e67a-41d2-9650-b27479b59c9f")
 		(effects
 			(font
@@ -16,9 +15,8 @@
 		)
 	)
 	(property "Value" "CAPACITOR"
-		(at 13.1704 7.9882 0)
+		(at -0.0762 8.1788 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "df9c41f3-7bd8-41ed-a8a4-280cf86f4fff")
 		(effects
 			(font
@@ -95,6 +93,18 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "db19ec39-89e7-46f8-bde5-2243964a836c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0508 2.0828 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f98a061-53ea-4435-935a-172ef1aee538")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" thru_hole rect
 		(at -2.5 0)

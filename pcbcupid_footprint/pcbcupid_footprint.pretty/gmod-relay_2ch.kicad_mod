@@ -1,4 +1,4 @@
-(footprint "gmod-relay-2ch"
+(footprint "gmod-relay_2ch"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "gmod-relay-2ch"
+	(property "Value" "gmod-relay_2ch"
 		(at 0.05 4.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -343,7 +343,27 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
+		(at 16.653227 -7.712081 270)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "479da3f0-7232-4507-b9ab-77c9193318bc")
+	)
+	(pad "2" thru_hole rect
 		(at -21.536773 -5.132081)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -351,7 +371,7 @@
 		(remove_unused_layers no)
 		(uuid "d03a6dba-a449-4afe-bd1d-80cdc62f4759")
 	)
-	(pad "2" thru_hole circle
+	(pad "3" thru_hole circle
 		(at -21.536773 -2.592081)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -359,7 +379,7 @@
 		(remove_unused_layers no)
 		(uuid "55d41f2f-aa46-4481-b119-7b17017f0dc7")
 	)
-	(pad "3" thru_hole circle
+	(pad "4" thru_hole circle
 		(at -21.536773 -0.052081)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -367,7 +387,7 @@
 		(remove_unused_layers no)
 		(uuid "3d693231-67c3-44ee-a850-bca942e66cf0")
 	)
-	(pad "4" thru_hole circle
+	(pad "5" thru_hole circle
 		(at -21.531773 2.462919)
 		(size 1.9304 1.9304)
 		(drill 1)
@@ -375,7 +395,7 @@
 		(remove_unused_layers no)
 		(uuid "1b1f563a-a33f-45d3-b54a-aaf9251d2c2a")
 	)
-	(pad "5" thru_hole circle
+	(pad "6" thru_hole circle
 		(at 16.653227 7.527919 270)
 		(size 3 3)
 		(drill 1.52)
@@ -395,7 +415,7 @@
 		)
 		(uuid "716da704-993b-4075-8f6a-52019f06eedf")
 	)
-	(pad "6" thru_hole circle
+	(pad "7" thru_hole circle
 		(at 16.653227 2.447919 270)
 		(size 3 3)
 		(drill 1.52)
@@ -415,7 +435,7 @@
 		)
 		(uuid "8ebcdd64-4f7c-4ad4-aac5-b8be2c475fef")
 	)
-	(pad "7" thru_hole circle
+	(pad "8" thru_hole circle
 		(at 16.653227 -2.632081 270)
 		(size 3 3)
 		(drill 1.52)
@@ -434,26 +454,6 @@
 			(prefer_zone_connections yes)
 		)
 		(uuid "358a1de8-625f-43a3-8c28-8c2730ae2c22")
-	)
-	(pad "8" thru_hole circle
-		(at 16.653227 -7.712081 270)
-		(size 3 3)
-		(drill 1.52)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers yes)
-		(keep_end_layers yes)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "479da3f0-7232-4507-b9ab-77c9193318bc")
 	)
 	(embedded_fonts no)
 	(model "D:/KICAD PROJECTS/ch2-RELAY-2CH.step"

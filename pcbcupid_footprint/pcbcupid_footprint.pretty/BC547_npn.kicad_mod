@@ -1,4 +1,4 @@
-(footprint "BC547(NPN)"
+(footprint "BC547_npn"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,9 +6,8 @@
 	(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 	(property "Reference" "REF**"
-		(at 1.27 -3.56 0)
+		(at -0.0254 -4.0386 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "f8d60c07-fcb4-4333-b1c1-8b3d3f312520")
 		(effects
 			(font
@@ -17,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "BC547(NPN)"
+	(property "Value" "BC547_npn"
 		(at 0.4 4 0)
 		(layer "F.Fab")
 		(uuid "46e152dd-3e84-4692-ab08-8f8d182ac1f0")
@@ -199,6 +198,18 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0508 2.3368 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8944dd76-dfd8-44a7-85a5-fd6703a29140")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" thru_hole rect

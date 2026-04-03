@@ -7,7 +7,6 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "6efeb509-2506-4c74-b337-023c2eb9e280")
 		(effects
 			(font
@@ -17,7 +16,7 @@
 		)
 	)
 	(property "Value" "usb-c"
-		(at -0.4 0.71 180)
+		(at -0.4 0.71 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5fb6b301-3dea-4151-8a6e-9346507b79da")
@@ -188,6 +187,18 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a8114fb-de2d-42b6-9b6f-bdd5c0949768")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" thru_hole circle
