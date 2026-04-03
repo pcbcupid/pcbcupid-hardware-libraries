@@ -1,10 +1,10 @@
-(footprint "ULTRASONIC SENSOR"
+(footprint "ultrasonic_sensor"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -19.48505 15.08329 0)
+		(at 0 6.25 0)
 		(layer "F.SilkS")
 		(uuid "98d0e076-9446-4231-9367-48cbeb8b325b")
 		(effects
@@ -14,8 +14,8 @@
 			)
 		)
 	)
-	(property "Value" "ULTRASONIC SENSOR"
-		(at 23.8102 15.029305 0)
+	(property "Value" "ultrasonic_sensor"
+		(at 0.25 3.75 0)
 		(layer "F.Fab")
 		(uuid "1719e1b2-5865-4de8-9079-9136120a84b7")
 		(effects
@@ -324,6 +324,18 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.25 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1cf878f3-d6a9-4c48-b2c9-c256144aa98b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" thru_hole circle

@@ -1,4 +1,4 @@
-(footprint "PUSH TO LOCK BUTTON"
+(footprint "7x7_mini_push_button_switch"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,9 +6,8 @@
 	(descr "DPDT Latching")
 	(tags "SW DPDT")
 	(property "Reference" "REF**"
-		(at 0.635 -9.525 180)
+		(at 0.5 -12 180)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "f47a82cd-4eb2-4cbf-be0c-9eb88210398f")
 		(effects
 			(font
@@ -17,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "PUSH TO LOCK BUTTON"
-		(at 0.6 14.4 0)
+	(property "Value" "7x7_mini_push_button_switch"
+		(at -0.135001 -10.225 0)
 		(layer "F.Fab")
 		(uuid "201b11ee-83fc-41ed-bbfd-4dc318441a2f")
 		(effects
@@ -257,61 +256,73 @@
 			(justify left bottom mirror)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce055133-66ea-4e62-985a-e3a3eebed16b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole oval
-		(at -2.54 3)
-		(size 2 2.5)
-		(drill 0.8
-			(offset -0.2 0)
-		)
-		(layers "B.Cu")
-		(remove_unused_layers no)
-		(uuid "f33ea384-47da-4263-b2ce-93d05e9c4ab2")
-	)
-	(pad "2" thru_hole oval
-		(at 0 3)
-		(size 1.85 2.5)
-		(drill 0.8)
-		(layers "B.Cu")
-		(remove_unused_layers no)
-		(uuid "99781428-86fd-4484-a64c-f816774945c1")
-	)
-	(pad "3" thru_hole oval
-		(at 2.54 3)
-		(size 2 2.5)
-		(drill 0.8
-			(offset 0.2 0)
-		)
-		(layers "B.Cu")
-		(remove_unused_layers no)
-		(uuid "e726d165-2dcd-4786-ba15-726f59e18465")
-	)
-	(pad "4" thru_hole oval
 		(at 2.54 -3)
 		(size 2 2.5)
 		(drill 0.8
 			(offset 0.2 0)
 		)
-		(layers "B.Cu")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "a653fcc7-91ef-4f96-a95a-e0a66025ee0e")
 	)
-	(pad "5" thru_hole oval
+	(pad "2" thru_hole oval
 		(at 0 -3)
 		(size 1.85 2.5)
 		(drill 0.8)
-		(layers "B.Cu")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "16ebc278-143e-478a-894a-eb631e45522d")
 	)
-	(pad "6" thru_hole oval
+	(pad "3" thru_hole oval
 		(at -2.54 -3)
 		(size 2 2.5)
 		(drill 0.8
 			(offset -0.2 0)
 		)
-		(layers "B.Cu")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "7ed9d592-4f07-4c0b-a9ce-c3b8026124ec")
+	)
+	(pad "4" thru_hole oval
+		(at -2.54 3)
+		(size 2 2.5)
+		(drill 0.8
+			(offset -0.2 0)
+		)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "f33ea384-47da-4263-b2ce-93d05e9c4ab2")
+	)
+	(pad "5" thru_hole oval
+		(at 0 3)
+		(size 1.85 2.5)
+		(drill 0.8)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "99781428-86fd-4484-a64c-f816774945c1")
+	)
+	(pad "6" thru_hole oval
+		(at 2.54 3)
+		(size 2 2.5)
+		(drill 0.8
+			(offset 0.2 0)
+		)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "e726d165-2dcd-4786-ba15-726f59e18465")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_USER_3DMOD_DIR}/SW_Btn_XLX.step"

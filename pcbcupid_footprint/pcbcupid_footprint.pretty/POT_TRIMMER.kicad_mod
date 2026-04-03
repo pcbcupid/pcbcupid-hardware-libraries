@@ -1,13 +1,12 @@
-(footprint "POT_TRIMMER"
+(footprint "pot_trimmer"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "10360040-b2cf-4d81-b0e4-67f9b56b603a")
 		(effects
 			(font
@@ -16,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "POT_TRIMMER"
+	(property "Value" "pot_trimmer"
 		(at 0 16.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -188,6 +187,18 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43854bf1-d7ea-48c9-b64b-bec44446b57c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" thru_hole circle

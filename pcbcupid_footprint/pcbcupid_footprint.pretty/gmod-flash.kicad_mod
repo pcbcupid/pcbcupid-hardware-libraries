@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Gmod_FLASH"
+	(property "Value" "gmod_flash"
 		(at -7.16 2.94 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -121,7 +121,7 @@
 		)
 	)
 	(fp_text user "SD3"
-		(at 9 -2.7 0)
+		(at 6.4262 -2.7 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "1cad1d39-ebc6-445e-950a-763b56d0de54")
@@ -149,7 +149,7 @@
 		)
 	)
 	(fp_text user "G"
-		(at 6.4 -2.7 0)
+		(at 8.9662 -2.5908 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "5f963790-56cd-49d3-b096-35aeb86e8cd2")
