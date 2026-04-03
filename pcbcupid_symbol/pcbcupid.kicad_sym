@@ -15,7 +15,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "1x3_push_button_array"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23,7 +23,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:1x3_Push_Button_Array"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190,7 +190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "1x6_push_button_array"
 			(at 0 0 0)
 			(effects
 				(font
@@ -198,7 +198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:1x6_push_button_array"
 			(at 0 0 0)
 			(effects
 				(font
@@ -338,7 +338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:7_segment_led_display"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -748,14 +748,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -37.084 26.162 0)
+			(at 5.334 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "7x7_mini_push_button_switch"
 			(at 0 0 0)
 			(effects
 				(font
@@ -763,7 +763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:7x7_mini_push_button_switch"
 			(at 0 0 0)
 			(effects
 				(font
@@ -938,7 +938,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "90deg_potentiometer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -946,7 +946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:90deg_potentiometer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1112,7 +1112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:BC547_npn"
 			(at 5.08 -1.905 0)
 			(effects
 				(font
@@ -1334,7 +1334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:DHT11"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1803,7 +1803,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:LCD_16x2_display"
 			(at 40.005 -6.985 0)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -19.05 18.796 0)
+			(at -11.938 -0.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -22.86 24.638 0)
+			(at 0 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3347,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:buzzer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3671,14 +3671,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 8.128 0)
+			(at -0.508 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "capacitor_ceramic_tht"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3686,7 +3686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:capacitor_ceramic_tht"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:capacitor_tht"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4070,7 +4070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "coin_cell_holder_CR2302"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -4080,7 +4080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pcbcupid_footprint:MICRO LITHIUM CELL CR2032"
+		(property "Footprint" "pcbcupid_footprint:coin_cell_holder_CR2032"
 			(at 5.08 -29.21 0)
 			(effects
 				(font
@@ -4221,14 +4221,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.382 9.652 0)
+			(at -0.508 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "condenser_mic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:Condensor_Mic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4340,14 +4340,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -39.116 26.416 0)
+			(at 0 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "esp32_cam"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4355,7 +4355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:esp32_cam"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "glyph-c3"
 			(at -0.635 26.67 0)
 			(effects
 				(font
@@ -4726,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCBCUPID-GLYPHC3-Footprint:GlyphC3"
+		(property "Footprint" "pcbcupid_footprint:glyph-c3"
 			(at -0.762 18.796 0)
 			(effects
 				(font
@@ -5394,7 +5394,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "glyph-c6"
 			(at -0.635 26.67 0)
 			(effects
 				(font
@@ -5402,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GLYPHC6:GLYPH-C6"
+		(property "Footprint" "pcbcupid_footprint:GLYPH-C6"
 			(at -10.16 111.76 0)
 			(effects
 				(font
@@ -6070,7 +6070,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "glyph-h2"
 			(at -0.635 26.67 0)
 			(effects
 				(font
@@ -6078,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCBCUPID-GLYPH_H2-FOOTPRINT:GlyphH2"
+		(property "Footprint" "pcbcupid_footprint:glyph-h2"
 			(at -10.16 111.76 0)
 			(effects
 				(font
@@ -6746,7 +6746,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "glyph-s3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6754,7 +6754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:glyph-s3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7423,7 +7423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "gmod-audio_codec"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7431,7 +7431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-audio_codec"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7740,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "gmod-can"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7748,7 +7748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-can"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7962,14 +7962,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -38.354 35.814 0)
+			(at 0 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "gmod-dc_dc_boost"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7977,7 +7977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-dc_dc_boost"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8125,7 +8125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "gmod-dc_dc_buck"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8133,7 +8133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-dc_dc_buck"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8281,7 +8281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gmod-micro_sd"
 			(at 0.635 13.97 0)
 			(effects
 				(font
@@ -8289,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-micro_sd"
 			(at -7.62 6.35 0)
 			(effects
 				(font
@@ -8538,7 +8538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gmod-motor_driver"
 			(at -185.42 -3.1049 0)
 			(effects
 				(font
@@ -8546,7 +8546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-motor_driver"
 			(at -168.91 -6.35 0)
 			(effects
 				(font
@@ -8930,7 +8930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gmod-relay_1ch"
 			(at 3.175 9.525 90)
 			(effects
 				(font
@@ -8939,7 +8939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Ch1_Relay_footprint:CH1_Relay_foot"
+		(property "Footprint" "pcbcupid_footprint:gmod-relay_1ch"
 			(at -73.66 6.35 0)
 			(effects
 				(font
@@ -9134,7 +9134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gmod-relay_ch2"
 			(at 1.27 11.43 90)
 			(effects
 				(font
@@ -9143,7 +9143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_CH2_footprint:Relay_CH2"
+		(property "Footprint" "pcbcupid_footprint:gmod-relay_2ch"
 			(at -1.778 -12.192 0)
 			(effects
 				(font
@@ -9384,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "gmod-rgb"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9392,7 +9392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-rgb"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9540,7 +9540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "gmod-rs485"
 			(at 36.83 1.27 0)
 			(effects
 				(font
@@ -9548,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-rs485"
 			(at 36.83 1.27 0)
 			(effects
 				(font
@@ -9770,7 +9770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gmod-rtc"
 			(at -11.43 -0.635 90)
 			(effects
 				(font
@@ -9778,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-rtc"
 			(at -2.54 20.32 0)
 			(effects
 				(font
@@ -10190,7 +10190,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 7.62 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +10198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "gmod_flash"
 			(at -1.27 -5.08 0)
 			(effects
 				(font
@@ -10206,7 +10206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gmod-flash"
 			(at -1.27 -5.08 0)
 			(effects
 				(font
@@ -10427,7 +10427,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gsense-magnetometer"
 			(at -11.43 0.635 90)
 			(effects
 				(font
@@ -10435,7 +10435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gsense-magnetometer"
 			(at -25.4 0 0)
 			(effects
 				(font
@@ -10582,7 +10582,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gsense-microphone_1ch"
 			(at -11.43 -0.635 90)
 			(effects
 				(font
@@ -10590,7 +10590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mic:CH1_mic_footprint"
+		(property "Footprint" "pcbcupid_footprint:gsense-microphone_1ch"
 			(at -11.43 0.254 90)
 			(effects
 				(font
@@ -10784,7 +10784,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gsense-microphone_2ch"
 			(at -13.335 -2.54 90)
 			(effects
 				(font
@@ -10792,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gsense-microphone_2ch"
 			(at -12.7 10.16 0)
 			(effects
 				(font
@@ -10982,7 +10982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "gsense-touch_slider"
 			(at 0 11.43 90)
 			(effects
 				(font
@@ -10991,7 +10991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:gsense-touch_slider"
 			(at -72.39 -20.32 0)
 			(effects
 				(font
@@ -11217,7 +11217,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 10.922 0)
+			(at -0.508 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11234,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:OLED_0.91_display"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11527,14 +11527,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.89 -15.24 0)
+			(at -8.89 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "pot_trimmer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11542,7 +11542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:POT_TRIMMER"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11664,14 +11664,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -9.906 10.922 0)
+			(at 0 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "qwiic_2in1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11679,7 +11679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:qwiic_2in1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11826,7 +11826,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "rotary_encoder"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11834,7 +11834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:rotary_encoder"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12006,7 +12006,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 2.54 -3.81 0)
+			(at -7.112 0.762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12014,7 +12014,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "ultrasonic_sensor"
 			(at 0 -10.163 0)
 			(effects
 				(font
@@ -12024,7 +12024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pcbcupid_footprint:ultrasonic_sensor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12144,8 +12144,8 @@
 		)
 		(symbol "ultrasonic_sensor_0_0"
 			(rectangle
-				(start 6.3487 5.08)
-				(end -6.3513 -5.08)
+				(start -6.3513 5.08)
+				(end 6.3487 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
