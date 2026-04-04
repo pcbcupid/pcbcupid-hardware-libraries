@@ -1,0 +1,156 @@
+(footprint "condensor_mic"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.63613 -4.45297 0)
+		(layer "F.SilkS")
+		(uuid "abdf2aee-fbe9-4ea3-8ea1-04ee07d6fc2b")
+		(effects
+			(font
+				(size 1.001795 1.001795)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "condensor_mic"
+		(at 0.0254 4.5974 0)
+		(layer "F.Fab")
+		(uuid "6db13f10-7ddd-4218-b157-8af4bed865da")
+		(effects
+			(font
+				(size 1.000591 1.000591)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ce128a6-8ca4-4e4f-a4b7-4aedd094f22a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c688d4f-e743-4f45-a3bc-dc68221e7977")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "83d8d320-7c11-4959-9145-2d807b91f4dd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "228908ea-924a-4a6f-a167-615d3993bea7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "371604ff-0b90-4b93-8f31-b123799af305")
+	)
+	(fp_text user "GND"
+		(at 0.2032 -0.3302 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "26ce0318-8733-4875-bd93-9ff675036624")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "OUT"
+		(at 0.1016 1.524 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "3840d547-aaec-4eca-ae69-774634c1d9ba")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0508 6.4262 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b085aaf-27a0-481a-a9cf-c29048e5ec97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 1 0.95)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3d398af0-ce06-45c5-b42a-747a526030d0")
+	)
+	(pad "2" thru_hole circle
+		(at 1 -0.95)
+		(size 1.208 1.208)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "10f91a14-2d5c-4aff-b3b8-6d9b77fc9ccd")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Dell/Downloads/CMC-2242PBL-A--3DModel-STEP-1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

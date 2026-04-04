@@ -1,0 +1,117 @@
+(footprint "buzzer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0254 -4.1148 0)
+		(layer "F.SilkS")
+		(uuid "ee276542-fda2-4e37-9dc7-1e725988ec32")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "buzzer"
+		(at 0 8 0)
+		(layer "F.Fab")
+		(uuid "3440d22e-3125-4400-9e50-83c7d23f717c")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b46e28d2-9a5f-496f-92f5-0d2b5a9f16f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0998e42-b722-435b-bd95-593b5b713f3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6.1 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ddd6d1b6-d37f-4a18-a9d0-dce2afc76b7b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c5ddbd22-f361-4929-87c7-2d336dd21855")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.1 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5dd15825-42ad-4f5d-98ab-4a5fb3f6142c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0254 -2.032 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "749116a4-76e0-4359-a700-52274502012b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.28 1.28)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "601d8293-ffb2-4b46-bd20-7f20183870c8")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.28 1.28)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "704ed0c0-aba2-476c-9ed8-12b45bd5652e")
+	)
+	(embedded_fonts no)
+)
