@@ -1594,7 +1594,7 @@ DEF TXFM_12 Transform {
   rotation 0 0 1 0
   scale 1 1 1
   scaleOrientation 0 0 1 0
-  translation -0.007584252 0.004711811 0.31496063
+  translation -0.007584252 0.004711811 1.6929134
  children [
 DEF TXFM_13 Transform {
   center 0 0 0
@@ -9272,7 +9272,7 @@ DEF TXFM_38 Transform {
   rotation 0 0 1 0
   scale 1 1 1
   scaleOrientation 0 0 1 0
-  translation 6.5967465 0.004711811 0.31496063
+  translation 6.5967465 0.004711811 1.6929134
  children [
 USE TXFM_13
 ] }
@@ -9281,7 +9281,7 @@ DEF TXFM_39 Transform {
   rotation 0 0 1 0
   scale 1 1 1
   scaleOrientation 0 0 1 0
-  translation -6.611915 0.004711811 0.31496063
+  translation -6.611915 0.004711811 1.6929134
  children [
 USE TXFM_13
 ] }
