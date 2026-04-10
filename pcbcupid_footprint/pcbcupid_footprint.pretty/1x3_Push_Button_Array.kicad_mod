@@ -1,4 +1,4 @@
-(footprint "1x3_push_button_array"
+(footprint "1x3_Push_Button_Array"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -215,9 +215,9 @@
 		(end -26.153984 -8.490998)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "ec549362-8d19-4a5c-9acd-ff90169b73a7")
 	)
 	(fp_line
@@ -225,9 +225,9 @@
 		(end 22.14221 -11.03109)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "3bae8d40-c47b-4b19-9970-8edcfcf5ac6b")
 	)
 	(fp_line
@@ -235,9 +235,9 @@
 		(end -23.614133 11.828648)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "9749b00d-35e8-4d56-a1a8-17cea8901704")
 	)
 	(fp_line
@@ -245,9 +245,9 @@
 		(end 24.645393 9.29943)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "885114be-9869-49a8-b511-d2fb6018040a")
 	)
 	(fp_arc
@@ -256,9 +256,9 @@
 		(end -23.595965 -11.031091)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "95e107d3-6831-4254-8091-9eeb41a6ab45")
 	)
 	(fp_arc
@@ -267,9 +267,9 @@
 		(end -26.154243 9.25625)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "bb12e44f-f8fb-4a51-b451-d9b9eacd1e94")
 	)
 	(fp_arc
@@ -278,9 +278,9 @@
 		(end 24.68175 -8.447014)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "e7b35d6f-3307-4d59-936d-1a0501015511")
 	)
 	(fp_arc
@@ -289,9 +289,9 @@
 		(end 22.064588 11.828908)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "938ae3c2-550a-40ea-800b-af0755bcdd70")
 	)
 	(fp_line
@@ -697,4 +697,15 @@
 		(uuid "9d7edef5-0cb4-45d9-bf0e-f20f9ca082a3")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/1x3_push_button_array.wrl"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

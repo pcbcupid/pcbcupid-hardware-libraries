@@ -58,70 +58,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "41fe54fa-fe8c-4757-a7f3-5f34d7bd6993")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer_Name_2" "XUNPU"
-		(at -52.7 15.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "515f24a7-22ee-4f6b-8a15-c229a8851b34")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Manufacturer_Part_Number_2" "USB-231-BRW"
-		(at -52.7 15.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "26aa3b87-fbb9-4026-b3b1-301329dd22b1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Sim.Pins" "1=K 2=A"
-		(at -52.7 15.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8db38f82-7f60-4ae0-960d-3b6563494796")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "second part" "KLS1-180A Dip 90 A Male Plug USB Connector/KLS1-1852 Dip 90 A Male Plug USB Connector"
-		(at -52.7 15.8 180)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "4e886ad1-722e-4d40-8a92-0d1c0832ed96")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "LCSC_Part" "C720526"
-		(at -52.7 15.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
 		(uuid "de6fdc73-cd68-4b19-b1a2-f1003b961e50")
 		(effects
 			(font
@@ -156,15 +92,40 @@
 			)
 		)
 	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at -52.7 15.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8db38f82-7f60-4ae0-960d-3b6563494796")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "second part" "KLS1-180A Dip 90 A Male Plug USB Connector/KLS1-1852 Dip 90 A Male Plug USB Connector"
+		(at -52.7 15.8 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4e886ad1-722e-4d40-8a92-0d1c0832ed96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
 		(start -19.986815 -15.174815)
 		(end -19.986815 8.701185)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "ead79aea-9c95-4f04-8fcd-c38cc61818b3")
 	)
 	(fp_line
@@ -172,9 +133,9 @@
 		(end 17.351185 9.463185)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "69fa1bcd-2d23-447d-a3a5-8f93b251b4c3")
 	)
 	(fp_line
@@ -182,9 +143,9 @@
 		(end -19.224815 -15.936815)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "96170979-6fa0-49c7-8272-a82ad05db410")
 	)
 	(fp_line
@@ -192,9 +153,9 @@
 		(end 18.113185 -15.174815)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "779193b0-446b-458c-acdf-5f5ee3f06048")
 	)
 	(fp_arc
@@ -203,9 +164,9 @@
 		(end -19.228 -15.94)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "32f41c8a-9183-4fbd-8673-8147052b227e")
 	)
 	(fp_arc
@@ -214,9 +175,9 @@
 		(end -19.986815 8.701185)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "e6e1b9f2-1881-4a49-ab89-5e3608bb0f64")
 	)
 	(fp_arc
@@ -225,9 +186,9 @@
 		(end 18.113185 -15.174815)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "a8f85233-0501-4f32-9a49-12742ede9d6b")
 	)
 	(fp_arc
@@ -236,9 +197,9 @@
 		(end 17.351185 9.463185)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "5a23c986-ca9b-49d3-b16e-8e9b6f255c1d")
 	)
 	(fp_circle

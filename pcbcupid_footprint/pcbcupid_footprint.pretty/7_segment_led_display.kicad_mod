@@ -461,13 +461,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Display_7Segment.3dshapes/7SEGMENT-LED__HDSM531_HDSM533_SMD.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0.5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )
