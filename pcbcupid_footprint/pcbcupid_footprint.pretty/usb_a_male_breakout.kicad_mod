@@ -123,9 +123,9 @@
 		(end -12.304651 11.7789)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "a7e626b7-4104-4d05-8b88-adf460c49fd9")
 	)
 	(fp_line
@@ -133,9 +133,9 @@
 		(end 9.793349 12.5409)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "0e471b38-d083-4da9-a6b5-d4653d84fb31")
 	)
 	(fp_line
@@ -143,9 +143,9 @@
 		(end -11.542651 -12.8591)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "2e4b7573-c85d-47f3-ba1c-4484fae3f854")
 	)
 	(fp_line
@@ -153,9 +153,9 @@
 		(end 10.555349 -12.0971)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "ea69a661-0297-4f6f-b94b-2d9701448093")
 	)
 	(fp_arc
@@ -164,9 +164,9 @@
 		(end -11.542651 -12.8591)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "e68e2e22-ae59-4cbb-bd09-da8546f794db")
 	)
 	(fp_arc
@@ -175,9 +175,9 @@
 		(end -12.304651 11.7789)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "9c0c8273-245a-45c2-8dd2-44aa11162bda")
 	)
 	(fp_arc
@@ -186,9 +186,9 @@
 		(end 10.555349 -12.0971)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "ad4eab15-0da1-4b49-913c-c30d3d4ac33a")
 	)
 	(fp_arc
@@ -197,9 +197,9 @@
 		(end 9.793349 12.5409)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "b791870f-821e-41cd-bc4a-dc7637c90a5b")
 	)
 	(fp_circle

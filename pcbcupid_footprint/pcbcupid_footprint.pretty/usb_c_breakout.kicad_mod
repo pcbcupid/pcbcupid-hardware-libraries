@@ -74,7 +74,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "3ee79063-91f7-4bd2-a0ff-20923cae21a2")
 	)
 	(fp_line
@@ -84,7 +84,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "8c7a9681-e7f9-48f8-af59-4649481587ee")
 	)
 	(fp_line
@@ -94,7 +94,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "59400db0-f4f4-4b2b-a765-dc3a49f6fc02")
 	)
 	(fp_line
@@ -104,7 +104,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "f0d4dc83-c784-40fd-a455-bcfc2050bf7b")
 	)
 	(fp_text user "USB-C BREAKOUT"

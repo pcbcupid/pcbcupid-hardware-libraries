@@ -215,9 +215,9 @@
 		(end -26.287802 -8.897286)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "1c6abf55-edf1-471c-81db-109645939a84")
 	)
 	(fp_line
@@ -225,9 +225,9 @@
 		(end 21.971754 -11.426486)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "21d76754-80d1-4c4f-8d5f-9b13d566f99b")
 	)
 	(fp_line
@@ -235,9 +235,9 @@
 		(end -23.784549 11.433252)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "95848a51-6616-47a0-873a-3587b1c61885")
 	)
 	(fp_line
@@ -245,9 +245,9 @@
 		(end 24.511575 8.893132)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "e55214b6-f69c-4e6c-b5c0-a81f167f01df")
 	)
 	(fp_arc
@@ -256,9 +256,9 @@
 		(end -23.701368 -11.426746)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "d3d1a247-9078-478d-aa94-1d30d74b9de7")
 	)
 	(fp_arc
@@ -267,9 +267,9 @@
 		(end -26.32416 8.849396)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "174c2f00-d525-4528-955d-b774f2551257")
 	)
 	(fp_arc
@@ -278,9 +278,9 @@
 		(end 24.511834 -8.853763)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "0f2bf3cb-7d43-437b-abb7-a10f482b656f")
 	)
 	(fp_arc
@@ -289,9 +289,9 @@
 		(end 21.939003 11.433253)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "7780c0a9-2166-40d0-8d4b-b91061db9e0a")
 	)
 	(fp_text user "KEY"
@@ -412,4 +412,15 @@
 		(uuid "c0ea2d42-6b5d-4854-be3c-1fdb379c9412")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/1x6_push_button_array.wrl"
+		(offset
+			(xyz 1.5 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
