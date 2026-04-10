@@ -325,7 +325,7 @@
 		(uuid "e726d165-2dcd-4786-ba15-726f59e18465")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_USER_3DMOD_DIR}/SW_Btn_XLX.step"
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/7x7_mini_push_button_switch.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -333,7 +333,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )

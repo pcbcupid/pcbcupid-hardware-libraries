@@ -297,10 +297,10 @@
 		(end -24.145655 8.969865)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Dwgs.User")
+		(layer "Edge.Cuts")
 		(uuid "5d327153-3a70-4ee2-b3e9-796c51a4f4d4")
 	)
 	(fp_circle
@@ -308,10 +308,10 @@
 		(end -21.496647 -8.823898)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Dwgs.User")
+		(layer "Edge.Cuts")
 		(uuid "d574ceb8-9e71-47d8-bd4f-2516f768fc2c")
 	)
 	(fp_circle
@@ -319,32 +319,21 @@
 		(end 21.513607 -8.820135)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Dwgs.User")
+		(layer "Edge.Cuts")
 		(uuid "6ac74a89-fe83-4bda-b884-d6830d1ed1e1")
-	)
-	(fp_circle
-		(center 22.935322 8.919865)
-		(end 21.665322 8.919865)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "608a0d32-209f-4e96-b9c8-84f86e611d42")
 	)
 	(fp_circle
 		(center 22.953353 8.956102)
 		(end 24.223353 8.956102)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Dwgs.User")
+		(layer "Edge.Cuts")
 		(uuid "e87aadc9-5cd5-46fa-8a36-bfff2af0eb43")
 	)
 	(fp_text user "GLYPH S3"
@@ -990,9 +979,9 @@
 		(uuid "2aa235b7-ded0-410d-a8d2-82b6c10d1548")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/esp32c3.step"
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/glyph-s3_h.wrl"
 		(offset
-			(xyz 150 -106.5 0)
+			(xyz 0 0 3)
 		)
 		(scale
 			(xyz 1 1 1)
