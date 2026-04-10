@@ -511,4 +511,15 @@
 		(uuid "9f3eec27-0834-44b9-9172-58d836c54653")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_PCBCUPID_3DMODEL_DIR}/gmod_usb-ttl-USBA.wrl"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
