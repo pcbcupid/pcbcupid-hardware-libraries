@@ -122,6 +122,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at 0 16.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c44a519a-aa55-4262-a55c-84c999b166b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole rect
 		(at -3.6 -3.75)
 		(size 1.7 1.7)
